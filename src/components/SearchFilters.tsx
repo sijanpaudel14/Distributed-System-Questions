@@ -7,10 +7,12 @@ interface SearchFiltersProps {
   searchTerm: string
   selectedYear: string
   marksRange: string
+  questionType: string
   availableYears: string[]
   onSearchChange: (term: string) => void
   onYearChange: (year: string) => void
   onMarksRangeChange: (range: string) => void
+  onQuestionTypeChange: (type: string) => void
   onReset: () => void
 }
 
@@ -18,10 +20,12 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({
   searchTerm,
   selectedYear,
   marksRange,
+  questionType,
   availableYears,
   onSearchChange,
   onYearChange,
   onMarksRangeChange,
+  onQuestionTypeChange,
   onReset,
 }) => {
   return (
@@ -74,6 +78,19 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({
               </select>
             </div>
 
+            {/* Question Type Filter */}
+            <div className='flex-1 sm:flex-shrink-0'>
+              <select
+                value={questionType}
+                onChange={(e) => onQuestionTypeChange(e.target.value)}
+                className='block w-full sm:w-36 px-2 sm:px-3 py-2 text-sm border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+              >
+                <option value=''>📝 All Types</option>
+                <option value='Regular'>Regular</option>
+                <option value='Back'>Back</option>
+              </select>
+            </div>
+
             {/* Reset Button */}
             <button
               onClick={onReset}
@@ -86,7 +103,7 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({
         </div>
 
         {/* Active Filters Display */}
-        {(searchTerm || selectedYear || marksRange) && (
+        {(searchTerm || selectedYear || marksRange || questionType) && (
           <div className='mt-3 flex flex-wrap gap-2'>
             {searchTerm && (
               <span className='inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800'>
@@ -116,6 +133,17 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({
                 <button
                   onClick={() => onMarksRangeChange('')}
                   className='ml-1.5 inline-flex items-center justify-center w-4 h-4 rounded-full text-purple-400 hover:bg-purple-200 hover:text-purple-600'
+                >
+                  <XMarkIcon className='h-3 w-3' />
+                </button>
+              </span>
+            )}
+            {questionType && (
+              <span className='inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800'>
+                Type: {questionType}
+                <button
+                  onClick={() => onQuestionTypeChange('')}
+                  className='ml-1.5 inline-flex items-center justify-center w-4 h-4 rounded-full text-orange-400 hover:bg-orange-200 hover:text-orange-600'
                 >
                   <XMarkIcon className='h-3 w-3' />
                 </button>

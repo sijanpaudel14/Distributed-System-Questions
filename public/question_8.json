@@ -1,146 +1,212 @@
 [
-  {
-    "question_no": 8,
-    "year": "2081 Bhadra",
-    "marks": "2+6",
-    "question": "Compare nested transaction with distributed transaction. Explain two-phase commit protocol for handling distributed transactions.",
-    "unit": 8,
-    "chapter": [8.1, 8.4]
-  },
-  {
-    "question_no": 8,
-    "year": "2081 Baishakh",
-    "marks": "2x5",
-    "question": "Write short notes on: (Any Two)\n\na) Distributed Deadlock and its avoidance approaches\n\nb) Center coordinator algorithm and its issues\n\nc) Active replication technique in DS",
-    "unit": 8,
-    "chapter": [8.3, 6.3, 7.4]
-  },
-  {
-    "question_no": 8,
-    "year": "2080 Bhadra",
-    "marks": "4+4",
-    "question": "What are the solutions to avoid deadlock in distributed system? Explain three phase commit protocol on handling distributed transactions.",
-    "unit": 8,
-    "chapter": [8.3, 8.5]
-  },
-  {
-    "question_no": 8,
-    "year": "2080 Baishakh",
-    "marks": "3+5",
-    "question": "Define faults, error and failures. How reliable client server communication can be achieved in DS?",
-    "unit": 9,
-    "chapter": [9.1]
-  },
-  {
-    "question_no": 8,
-    "year": "2079 Bhadra",
-    "marks": "6+4",
-    "question": "Explain snapshot algorithm used for backward recovery in distributed system. Explain three phase commit protocol with state diagram.",
-    "unit": 9,
-    "chapter": [9.3, 8.5]
-  },
-  {
-    "question_no": 8,
-    "year": "2078 Bhadra",
-    "marks": "3+4",
-    "question": "Discuss how Consensus can be achieved in Distributed System. Explain the check pointing approach for distributed recovery.",
-    "unit": 9,
-    "chapter": [9.2, 9.4]
-  },
-  {
-    "question_no": 8,
-    "year": "2076 Chaitra",
-    "marks": "4+4",
-    "question": "What are the alternative approaches to avoid possibility of deadlock in distributed system? Explain.",
-    "unit": 8,
-    "chapter": [8.3]
-  },
-  {
-    "question_no": 8,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Why is it necessary to maintain transaction? What is a deadlock and what are phantom deadlocks.",
-    "unit": 8,
-    "chapter": [8.3]
-  },
-  {
-    "question_no": 8,
-    "year": "2075 Chaitra",
-    "marks": "2+6",
-    "question": "Compare nested transactions and distributed transactions. Explain the two-phase commit protocol of handling distributed transactions.",
-    "unit": 8,
-    "chapter": [8.1, 8.4]
-  },
-  {
-    "question_no": 8,
-    "year": "2075 Ashwin",
-    "marks": "3+5",
-    "question": "Differentiate between passive and active replication approach. Discuss with a technique that make the distributed system highly available.",
-    "unit": 7,
-    "chapter": [7.4, 7.5]
-  },
-  {
-    "question_no": 8,
-    "year": "2074 Ashwin",
-    "marks": "8",
-    "question": "How cascading aborts occurs and solved? Explain three phase commit protocol with state diagram.",
-    "unit": 8,
-    "chapter": [8.5]
-  },
-  {
-    "question_no": 8,
-    "year": "2073 Shrawan",
-    "marks": "4+6",
-    "question": "What is LOCK and DEADLOCK in DS? Discuss the methods of distributed deadlock avoidance.",
-    "unit": 8,
-    "chapter": [8.3]
-  },
-  {
-    "question_no": 8,
-    "year": "2072 Chaitra",
-    "marks": "2+4+2",
-    "question": "What do you mean by nested transactions? Explain optimistic concurrency control method with its advantages over other concurrency control methods.",
-    "unit": 8,
-    "chapter": [8.1, 8.2]
-  },
-  {
-    "question_no": 8,
-    "year": "2071 Shrawan",
-    "marks": "4+4",
-    "question": "How do you avoid faults in DS? Compare independent checkpointing with coordinated checkpointing approach.",
-    "unit": 9,
-    "chapter": [9.4]
-  },
-  {
-    "question_no": 8,
-    "year": "2072 Kartik",
-    "marks": "8",
-    "question": "How cascading aborts occurs and can be solved? Explain the needs and roles of atomic commit protocol in distributed system.",
-    "unit": 8,
-    "chapter": [8.5]
-  },
-  {
-    "question_no": 8,
-    "year": "2071 Chaitra",
-    "marks": "1+4+3",
-    "question": "Define lock in concurrency control. How can concurrency be controlled in distributed transactions? What situation does lead to distributed deadlock?",
-    "unit": 8,
-    "chapter": [8.2, 8.3]
-  },
-  {
-    "question_no": 8,
-    "year": "2070 Ashad",
-    "marks": "2+6",
-    "question": "What are the roles of atomic commitment protocol (ACP) in distributed transactions? Explain the different methods of concurrency control in distributed transactions.",
-    "unit": 8,
-    "chapter": [8.4, 8.2]
-  },
-  {
-    "question_no": 8,
-    "year": "2069 Chaitra",
-    "marks": "2+5",
-    "question": "What do you mean by Distributed Deadlock? Explain the two-phase commit protocol of handling distributed transaction.",
-    "unit": 8,
-    "chapter": [8.3, 8.4]
-  }
+    {
+        "question_no": 8,
+        "year": "2081 Bhadra",
+        "marks": "2+6",
+        "question": "Compare nested transaction with distributed transaction. Explain two-phase commit protocol for handling distributed transactions.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2081 Baishakh",
+        "marks": "2x5",
+        "question": "Write short notes on: (Any Two)\n\na) Distributed Deadlock and its avoidance approaches\n\nb) Center coordinator algorithm and its issues\n\nc) Active replication technique in DS",
+        "unit": 8,
+        "chapter": [
+            8.3,
+            6.3,
+            7.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2080 Bhadra",
+        "marks": "4+4",
+        "question": "What are the solutions to avoid deadlock in distributed system? Explain three phase commit protocol on handling distributed transactions.",
+        "unit": 8,
+        "chapter": [
+            8.3,
+            8.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2080 Baishakh",
+        "marks": "3+5",
+        "question": "Define faults, error and failures. How reliable client server communication can be achieved in DS?",
+        "unit": 9,
+        "chapter": [
+            9.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2079 Bhadra",
+        "marks": "6+4",
+        "question": "Explain snapshot algorithm used for backward recovery in distributed system. Explain three phase commit protocol with state diagram.",
+        "unit": 9,
+        "chapter": [
+            9.3,
+            8.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2078 Bhadra",
+        "marks": "3+4",
+        "question": "Discuss how Consensus can be achieved in Distributed System. Explain the check pointing approach for distributed recovery.",
+        "unit": 9,
+        "chapter": [
+            9.2,
+            9.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2076 Chaitra",
+        "marks": "4+4",
+        "question": "What are the alternative approaches to avoid possibility of deadlock in distributed system? Explain.",
+        "unit": 8,
+        "chapter": [
+            8.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Why is it necessary to maintain transaction? What is a deadlock and what are phantom deadlocks.",
+        "unit": 8,
+        "chapter": [
+            8.3
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2075 Chaitra",
+        "marks": "2+6",
+        "question": "Compare nested transactions and distributed transactions. Explain the two-phase commit protocol of handling distributed transactions.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2075 Ashwin",
+        "marks": "3+5",
+        "question": "Differentiate between passive and active replication approach. Discuss with a technique that make the distributed system highly available.",
+        "unit": 7,
+        "chapter": [
+            7.4,
+            7.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2074 Ashwin",
+        "marks": "8",
+        "question": "How cascading aborts occurs and solved? Explain three phase commit protocol with state diagram.",
+        "unit": 8,
+        "chapter": [
+            8.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2073 Shrawan",
+        "marks": "4+6",
+        "question": "What is LOCK and DEADLOCK in DS? Discuss the methods of distributed deadlock avoidance.",
+        "unit": 8,
+        "chapter": [
+            8.3
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2072 Chaitra",
+        "marks": "2+4+2",
+        "question": "What do you mean by nested transactions? Explain optimistic concurrency control method with its advantages over other concurrency control methods.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.2
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2071 Shrawan",
+        "marks": "4+4",
+        "question": "How do you avoid faults in DS? Compare independent checkpointing with coordinated checkpointing approach.",
+        "unit": 9,
+        "chapter": [
+            9.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2072 Kartik",
+        "marks": "8",
+        "question": "How cascading aborts occurs and can be solved? Explain the needs and roles of atomic commit protocol in distributed system.",
+        "unit": 8,
+        "chapter": [
+            8.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2071 Chaitra",
+        "marks": "1+4+3",
+        "question": "Define lock in concurrency control. How can concurrency be controlled in distributed transactions? What situation does lead to distributed deadlock?",
+        "unit": 8,
+        "chapter": [
+            8.2,
+            8.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 8,
+        "year": "2070 Ashad",
+        "marks": "2+6",
+        "question": "What are the roles of atomic commitment protocol (ACP) in distributed transactions? Explain the different methods of concurrency control in distributed transactions.",
+        "unit": 8,
+        "chapter": [
+            8.4,
+            8.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 8,
+        "year": "2069 Chaitra",
+        "marks": "2+5",
+        "question": "What do you mean by Distributed Deadlock? Explain the two-phase commit protocol of handling distributed transaction.",
+        "unit": 8,
+        "chapter": [
+            8.3,
+            8.4
+        ],
+        "Type": "Regular"
+    }
 ]

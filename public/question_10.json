@@ -1,74 +1,119 @@
 [
-  {
-    "question_no": 10,
-    "year": "2081 Bhadra",
-    "marks": "2x4",
-    "question": "Write short notes on: (Any Two) a) Global state and state recording technique b) Goals of DS c) Backward recovery technique in DS d) CORBA dynamic invocation",
-    "unit": 9,
-    "chapter": [9.2, 1.6, 9.2, 4.3]
-  },
-  {
-    "question_no": 10,
-    "year": "2080 Bhadra",
-    "marks": "2x4",
-    "question": "Write short notes on: (Any Two)\n\na) JINI\n\nb) Backward recovery Technique in DS\n\nc) Advantages and consequences of statelessness in DFS\n\nd) NTP",
-    "unit": 4,
-    "chapter": [4.1, 9.2, 5.2, 4.1]
-  },
-  {
-    "question_no": 10,
-    "year": "2078 Bhadra",
-    "marks": "4+4",
-    "question": "Write short notes on: (Any Two)\n\na) JINI\n\nb) Distributed Debugging\n\nc) CORBA Architecture\n\nd) Process Resilience",
-    "unit": 4,
-    "chapter": [4.1, 9.5, 4.2, 9.4]
-  },
-  {
-    "question_no": 10,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Write short notes on any two:\n\na) RPC\n\nb) Monolithic and micro kernel\n\nc) Mach",
-    "unit": 4,
-    "chapter": [4.3, 2.5, 4.4]
-  },
-  {
-    "question_no": 10,
-    "year": "2075 Chaitra",
-    "marks": "4+4",
-    "question": "Write short notes on: (Any Two)\n\na) Reliable Group Communication\n\nb) Distributed deadlock\n\nc) Forward and Backward recovery in distributed system",
-    "unit": 9,
-    "chapter": [6.3, 8.6, 9.2]
-  },
-  {
-    "question_no": 10,
-    "year": "2075 Ashwin",
-    "marks": "4+4",
-    "question": "How does triple modular redundancy works? Explain how reliable client server communication can be achieved in distributed system.",
-    "unit": 9,
-    "chapter": [9.3, 9.5]
-  },
-  {
-    "question_no": 10,
-    "year": "2074 Ashwin",
-    "marks": "2x4",
-    "question": "Write short notes on: (Any two)\n\na) Distributed deadlock and recovery\n\nb) MACH\n\nc) Process Resilience",
-    "unit": 9,
-    "chapter": [8.6, 4.4, 9.4]
-  },
-  {
-    "question_no": 10,
-    "year": "2070 Ashad",
-    "marks": "2+4",
-    "question": "Write different services provided by CORBA. What are dynamic and static invocation approaches of CORBA.",
-    "unit": 4,
-    "chapter": [4.2, 4.3]
-  },
-  {
-    "question_no": 10,
-    "year": "2069 Chaitra",
-    "marks": "2+2+4",
-    "question": "What do you mean by faults, failures and errors? How do you handle faults in Distributed System? Explain process resilience approach in brief.",
-    "unit": 9,
-    "chapter": [9.1, 9.4]
-  }
+    {
+        "question_no": 10,
+        "year": "2081 Bhadra",
+        "marks": "2x4",
+        "question": "Write short notes on: (Any Two) a) Global state and state recording technique b) Goals of DS c) Backward recovery technique in DS d) CORBA dynamic invocation",
+        "unit": 9,
+        "chapter": [
+            9.2,
+            1.6,
+            9.2,
+            4.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 10,
+        "year": "2080 Bhadra",
+        "marks": "2x4",
+        "question": "Write short notes on: (Any Two)\n\na) JINI\n\nb) Backward recovery Technique in DS\n\nc) Advantages and consequences of statelessness in DFS\n\nd) NTP",
+        "unit": 4,
+        "chapter": [
+            4.1,
+            9.2,
+            5.2,
+            4.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 10,
+        "year": "2078 Bhadra",
+        "marks": "4+4",
+        "question": "Write short notes on: (Any Two)\n\na) JINI\n\nb) Distributed Debugging\n\nc) CORBA Architecture\n\nd) Process Resilience",
+        "unit": 4,
+        "chapter": [
+            4.1,
+            9.5,
+            4.2,
+            9.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 10,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Write short notes on any two:\n\na) RPC\n\nb) Monolithic and micro kernel\n\nc) Mach",
+        "unit": 4,
+        "chapter": [
+            4.3,
+            2.5,
+            4.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 10,
+        "year": "2075 Chaitra",
+        "marks": "4+4",
+        "question": "Write short notes on: (Any Two)\n\na) Reliable Group Communication\n\nb) Distributed deadlock\n\nc) Forward and Backward recovery in distributed system",
+        "unit": 9,
+        "chapter": [
+            6.3,
+            8.6,
+            9.2
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 10,
+        "year": "2075 Ashwin",
+        "marks": "4+4",
+        "question": "How does triple modular redundancy works? Explain how reliable client server communication can be achieved in distributed system.",
+        "unit": 9,
+        "chapter": [
+            9.3,
+            9.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 10,
+        "year": "2074 Ashwin",
+        "marks": "2x4",
+        "question": "Write short notes on: (Any two)\n\na) Distributed deadlock and recovery\n\nb) MACH\n\nc) Process Resilience",
+        "unit": 9,
+        "chapter": [
+            8.6,
+            4.4,
+            9.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 10,
+        "year": "2070 Ashad",
+        "marks": "2+4",
+        "question": "Write different services provided by CORBA. What are dynamic and static invocation approaches of CORBA.",
+        "unit": 4,
+        "chapter": [
+            4.2,
+            4.3
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 10,
+        "year": "2069 Chaitra",
+        "marks": "2+2+4",
+        "question": "What do you mean by faults, failures and errors? How do you handle faults in Distributed System? Explain process resilience approach in brief.",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.4
+        ],
+        "Type": "Regular"
+    }
 ]

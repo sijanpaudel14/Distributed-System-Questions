@@ -53,8 +53,8 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
         <div className='flex-1 min-w-0'>
           {/* Question text with number inline */}
           <div className='prose max-w-none mb-3'>
-            <p className='text-gray-800 leading-relaxed text-sm sm:text-base font-medium'>
-              <span className='inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-bold bg-blue-500 text-white mr-2 sm:mr-3'>
+            <p className='text-gray-800 leading-relaxed text-base sm:text-lg font-medium'>
+              <span className='inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-base font-bold bg-blue-500 text-white mr-2 sm:mr-3'>
                 {displayIndex !== undefined
                   ? displayIndex
                   : question.question_no}
@@ -83,7 +83,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
         {/* Right side - Marks and Year */}
         <div className='flex items-center justify-start sm:justify-end gap-2 sm:gap-3 flex-shrink-0'>
           <span
-            className={`inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs font-bold ${getMarksColor(
+            className={`inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm font-bold ${getMarksColor(
               question.marks
             )}`}
           >
@@ -96,7 +96,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
             </svg>
             {question.marks || 'N/A'}
           </span>
-          <span className='inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs font-bold bg-orange-500 text-white'>
+          <span className='inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm font-bold bg-orange-500 text-white'>
             <svg
               className='w-3 h-3 mr-1'
               fill='currentColor'
@@ -111,6 +111,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
             {question.year}
           </span>
         </div>
+        {/* Optional: Add a separator line */}
       </div>
     </div>
   )

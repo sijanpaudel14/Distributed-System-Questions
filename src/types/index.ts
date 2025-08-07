@@ -5,6 +5,7 @@ export interface Question {
   question: string
   unit?: number
   chapter?: (number | string)[]
+  Type?: string
 }
 
 export interface Subchapter {
@@ -32,6 +33,7 @@ export interface FilterState {
   searchTerm: string
   selectedYear: string
   marksRange: string
+  questionType: string
   selectedUnit: number | null
   selectedChapter: number | null
   selectedSubchapter: string | null

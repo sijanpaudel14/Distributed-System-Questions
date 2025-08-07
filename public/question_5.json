@@ -1,146 +1,213 @@
 [
-  {
-    "question_no": 5,
-    "year": "2081 Bhadra",
-    "marks": "2+2+4",
-    "question": "What are the fundamental requirements of Mutual Exclusion in DS? Why is election applicable in DS? Explain the functional steps of anyone election algorithm.",
-    "unit": 6,
-    "chapter": [6.1, 6.3]
-  },
-  {
-    "question_no": 5,
-    "year": "2081 Baishakh",
-    "marks": "10",
-    "question": "How do you elect replica manager in primary backup replication? Explain.",
-    "unit": 7,
-    "chapter": [7.4]
-  },
-  {
-    "question_no": 5,
-    "year": "2080 Bhadra",
-    "marks": "8",
-    "question": "\"Vector timestamp mechanism for synchronization is used for causality of events\". Justify with the implementation rules and examples.",
-    "unit": 5,
-    "chapter": ["5.1.3"]
-  },
-  {
-    "question_no": 5,
-    "year": "2080 Baishakh",
-    "marks": "2+2+6",
-    "question": "Compare non token and token based mutual exclusion. Why election is important in DS? Explain the Ring Based election algorithm with rules and example.",
-    "unit": 6,
-    "chapter": [6.1, 6.3]
-  },
-  {
-    "question_no": 5,
-    "year": "2079 Bhadra",
-    "marks": "4+6",
-    "question": "Explain with example how can you achieve consensus in distributed system. Explain ricart-agrawala token based algorithm.",
-    "unit": 6,
-    "chapter": [6.5, 6.1]
-  },
-  {
-    "question_no": 5,
-    "year": "2078 Bhadra",
-    "marks": "6+2",
-    "question": "Write implementation rules of Lamport clock. State the limitations of Lamport logical clock.",
-    "unit": 5,
-    "chapter": ["5.1.2"]
-  },
-  {
-    "question_no": 5,
-    "year": "2076 Chaitra",
-    "marks": "5+5",
-    "question": "How does a new coordinator elect in executing central coordinator algorithm? How to come to consensus in DS? Explain.",
-    "unit": 6,
-    "chapter": [6.3, 6.5]
-  },
-  {
-    "question_no": 5,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Explain Lamport's logical clock with its pros and cons.",
-    "unit": 5,
-    "chapter": ["5.1.2"]
-  },
-  {
-    "question_no": 5,
-    "year": "2075 Chaitra",
-    "marks": "4+4",
-    "question": "List the problems of Lamports clock with example. How vector clock is beneficial than Lamports clock? Explain with implementation rules of vector clock.",
-    "unit": 5,
-    "chapter": ["5.1.2", "5.1.3"]
-  },
-  {
-    "question_no": 5,
-    "year": "2075 Ashwin",
-    "marks": "2+4",
-    "question": "Define Object Adapter. Explain the invocation methods in CORBA.",
-    "unit": 4,
-    "chapter": [4.5]
-  },
-  {
-    "question_no": 5,
-    "year": "2074 Ashwin",
-    "marks": "2+6",
-    "question": "Why clock synchronization is necessary? Explain the clock synchronization algorithm using vector clock along with an example.",
-    "unit": 5,
-    "chapter": ["5.1.4", "5.1.3"]
-  },
-  {
-    "question_no": 5,
-    "year": "2073 Shrawan",
-    "marks": "4+6",
-    "question": "What are the principle applications of state recording and distributed debugging? Determine the types of distributed CUT in the following figure.",
-    "unit": 5,
-    "chapter": [5.3, 5.4]
-  },
-  {
-    "question_no": 5,
-    "year": "2072 Chaitra",
-    "marks": "2+2+6",
-    "question": "Differentiate between physical clock and logical clock. Why it is difficult to synchronize physical clock? Describe a method for physical clock synchronization.",
-    "unit": 5,
-    "chapter": ["5.1.1", "5.1.2"]
-  },
-  {
-    "question_no": 5,
-    "year": "2071 Shrawan",
-    "marks": "2+6",
-    "question": "Measure the performance issue of non-token based Ricart-Agrawal Algorithm. Write alternate algorithm to address those performance issues.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 5,
-    "year": "2072 Kartik",
-    "marks": "4+6",
-    "question": "Define flat and nested transaction. Discuss the approach of optimistic concurrency control in distributed transactions.",
-    "unit": 8,
-    "chapter": [8.2, 8.4]
-  },
-  {
-    "question_no": 5,
-    "year": "2071 Chaitra",
-    "marks": "4+2+2",
-    "question": "List the goals of JINI. What are CORBA services? How does operating system support for distributed system?",
-    "unit": 4,
-    "chapter": [4.3, 4.5, 3.1]
-  },
-  {
-    "question_no": 5,
-    "year": "2070 Ashad",
-    "marks": "2+6",
-    "question": "Compare physical clocks and logical clocks with its implementation semantics. Describe Lamport's timestamp algorithm with its benefits and drawbacks.",
-    "unit": 5,
-    "chapter": ["5.1.1", "5.1.2"]
-  },
-  {
-    "question_no": 5,
-    "year": "2069 Chaitra",
-    "marks": "2+6",
-    "question": "Define logical and physical clocks. Explain Lamport timestamp algorithm along with an example.",
-    "unit": 5,
-    "chapter": ["5.1.2", "5.1.1"]
-  }
+    {
+        "question_no": 5,
+        "year": "2081 Bhadra",
+        "marks": "2+2+4",
+        "question": "What are the fundamental requirements of Mutual Exclusion in DS? Why is election applicable in DS? Explain the functional steps of anyone election algorithm.",
+        "unit": 6,
+        "chapter": [
+            6.1,
+            6.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2081 Baishakh",
+        "marks": "10",
+        "question": "How do you elect replica manager in primary backup replication? Explain.",
+        "unit": 7,
+        "chapter": [
+            7.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2080 Bhadra",
+        "marks": "8",
+        "question": "\"Vector timestamp mechanism for synchronization is used for causality of events\". Justify with the implementation rules and examples.",
+        "unit": 5,
+        "chapter": [
+            "5.1.3"
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2080 Baishakh",
+        "marks": "2+2+6",
+        "question": "Compare non token and token based mutual exclusion. Why election is important in DS? Explain the Ring Based election algorithm with rules and example.",
+        "unit": 6,
+        "chapter": [
+            6.1,
+            6.3
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2079 Bhadra",
+        "marks": "4+6",
+        "question": "Explain with example how can you achieve consensus in distributed system. Explain ricart-agrawala token based algorithm.",
+        "unit": 6,
+        "chapter": [
+            6.5,
+            6.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2078 Bhadra",
+        "marks": "6+2",
+        "question": "Write implementation rules of Lamport clock. State the limitations of Lamport logical clock.",
+        "unit": 5,
+        "chapter": [
+            "5.1.2"
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2076 Chaitra",
+        "marks": "5+5",
+        "question": "How does a new coordinator elect in executing central coordinator algorithm? How to come to consensus in DS? Explain.",
+        "unit": 6,
+        "chapter": [
+            6.3,
+            6.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Explain Lamport's logical clock with its pros and cons.",
+        "unit": 5,
+        "chapter": [
+            "5.1.2"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2075 Chaitra",
+        "marks": "4+4",
+        "question": "List the problems of Lamports clock with example. How vector clock is beneficial than Lamports clock? Explain with implementation rules of vector clock.",
+        "unit": 5,
+        "chapter": [
+            "5.1.2",
+            "5.1.3"
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2075 Ashwin",
+        "marks": "2+4",
+        "question": "Define Object Adapter. Explain the invocation methods in CORBA.",
+        "unit": 4,
+        "chapter": [
+            4.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2074 Ashwin",
+        "marks": "2+6",
+        "question": "Why clock synchronization is necessary? Explain the clock synchronization algorithm using vector clock along with an example.",
+        "unit": 5,
+        "chapter": [
+            "5.1.4",
+            "5.1.3"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2073 Shrawan",
+        "marks": "4+6",
+        "question": "What are the principle applications of state recording and distributed debugging? Determine the types of distributed CUT in the following figure.",
+        "unit": 5,
+        "chapter": [
+            5.3,
+            5.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2072 Chaitra",
+        "marks": "2+2+6",
+        "question": "Differentiate between physical clock and logical clock. Why it is difficult to synchronize physical clock? Describe a method for physical clock synchronization.",
+        "unit": 5,
+        "chapter": [
+            "5.1.1",
+            "5.1.2"
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2071 Shrawan",
+        "marks": "2+6",
+        "question": "Measure the performance issue of non-token based Ricart-Agrawal Algorithm. Write alternate algorithm to address those performance issues.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2072 Kartik",
+        "marks": "4+6",
+        "question": "Define flat and nested transaction. Discuss the approach of optimistic concurrency control in distributed transactions.",
+        "unit": 8,
+        "chapter": [
+            8.2,
+            8.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2071 Chaitra",
+        "marks": "4+2+2",
+        "question": "List the goals of JINI. What are CORBA services? How does operating system support for distributed system?",
+        "unit": 4,
+        "chapter": [
+            4.3,
+            4.5,
+            3.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 5,
+        "year": "2070 Ashad",
+        "marks": "2+6",
+        "question": "Compare physical clocks and logical clocks with its implementation semantics. Describe Lamport's timestamp algorithm with its benefits and drawbacks.",
+        "unit": 5,
+        "chapter": [
+            "5.1.1",
+            "5.1.2"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 5,
+        "year": "2069 Chaitra",
+        "marks": "2+6",
+        "question": "Define logical and physical clocks. Explain Lamport timestamp algorithm along with an example.",
+        "unit": 5,
+        "chapter": [
+            "5.1.2",
+            "5.1.1"
+        ],
+        "Type": "Regular"
+    }
 ]

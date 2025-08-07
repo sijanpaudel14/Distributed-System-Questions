@@ -1,146 +1,208 @@
 [
-  {
-    "question_no": 6,
-    "year": "2081 Bhadra",
-    "marks": "3+5",
-    "question": "What are the benefits and drawbacks of Replication in DS? How do Gossip Architecture avoid issues of active and passive replication? Explain.",
-    "unit": 7,
-    "chapter": [7.1, 7.4]
-  },
-  {
-    "question_no": 6,
-    "year": "2081 Baishakh",
-    "marks": "2+8",
-    "question": "What is byzantine problem? Explain the backward recovery approaches in DS.",
-    "unit": 9,
-    "chapter": [9.1, 9.5]
-  },
-  {
-    "question_no": 6,
-    "year": "2080 Bhadra",
-    "marks": "2+6",
-    "question": "Define mutual exclusion in distributed system. Explain the steps to elect coordinator in process resilience system.",
-    "unit": 6,
-    "chapter": [6.1, 9.2]
-  },
-  {
-    "question_no": 6,
-    "year": "2080 Baishakh",
-    "marks": "5+5",
-    "question": "What are the different consistency models applicable in a distributed system? How does a primary-backup model work?",
-    "unit": 7,
-    "chapter": [7.1, 7.2]
-  },
-  {
-    "question_no": 6,
-    "year": "2079 Bhadra",
-    "marks": "3+4+2",
-    "question": "List the challenges of replication in DS. Explain how passive replication model supports in fault tolerance. How it is differ than active replication model?",
-    "unit": 7,
-    "chapter": [7.1, 7.4]
-  },
-  {
-    "question_no": 6,
-    "year": "2078 Bhadra",
-    "marks": "4+5",
-    "question": "Compare and contrast token based mutual exclusion algorithm and non-token based mutual exclusion algorithm. Explain the various state of Ricart Agrawala token based mutual exclusion.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 6,
-    "year": "2076 Chaitra",
-    "marks": "2+4+2",
-    "question": "What is fault? How to implement primary-backup replica system? How is it differ from active replication?",
-    "unit": 7,
-    "chapter": [7.4]
-  },
-  {
-    "question_no": 6,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Explain reliable multicast with its properties and an algorithm.",
-    "unit": 6,
-    "chapter": [6.4]
-  },
-  {
-    "question_no": 6,
-    "year": "2075 Chaitra",
-    "marks": "2+6",
-    "question": "How token system works for mutual exclusion in Distributed System. Explain with token based Algorithm.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 6,
-    "year": "2075 Ashwin",
-    "marks": "2+4",
-    "question": "What is Network Time Protocol (NTP)? How Berkeley minimizes the problems of single time server failures of Chistian's algorithm.",
-    "unit": 5,
-    "chapter": ["5.1.4"]
-  },
-  {
-    "question_no": 6,
-    "year": "2074 Ashwin",
-    "marks": "8",
-    "question": "Describe non-token based centralized and Ricart Agrawala algorithm with example and compare them.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 6,
-    "year": "2073 Shrawan",
-    "marks": "2+6",
-    "question": "Define distributed coordination in DS? Explain how token ring algorithm works for mutual exclusion in DS.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 6,
-    "year": "2072 Chaitra",
-    "marks": "2+8",
-    "question": "What are the basic requirements for mutual exclusion in distributed system? Explain the non-token based distributed mutual exclusion algorithm and compare it with token based algorithm.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 6,
-    "year": "2071 Shrawan",
-    "marks": "3+5",
-    "question": "How to come to consensus in DS? Discuss with an approach, how do you make the distributed system service highly available?",
-    "unit": 7,
-    "chapter": [7.5, 6.5]
-  },
-  {
-    "question_no": 6,
-    "year": "2072 Kartik",
-    "marks": "2+6",
-    "question": "Why it is difficult to synchronize physical clock? Explain how clock synchronization can be solved using logical clock.",
-    "unit": 5,
-    "chapter": ["5.1.1", "5.1.2"]
-  },
-  {
-    "question_no": 6,
-    "year": "2071 Chaitra",
-    "marks": "10",
-    "question": "Explain with algorithmic steps, how token ring algorithm works for mutual exclusion in distributed system.",
-    "unit": 6,
-    "chapter": [6.1]
-  },
-  {
-    "question_no": 6,
-    "year": "2070 Ashad",
-    "marks": "5+3",
-    "question": "Explain any one election technique in Distributed System. Discuss with steps how consensus can be achieved in Distributed System.",
-    "unit": 6,
-    "chapter": [6.3, 6.5]
-  },
-  {
-    "question_no": 6,
-    "year": "2069 Chaitra",
-    "marks": "2+4",
-    "question": "Present a practical scenario where you need an election algorithm. Explain an election algorithm with example that is suitable to your scenario.",
-    "unit": 6,
-    "chapter": [6.3]
-  }
+    {
+        "question_no": 6,
+        "year": "2081 Bhadra",
+        "marks": "3+5",
+        "question": "What are the benefits and drawbacks of Replication in DS? How do Gossip Architecture avoid issues of active and passive replication? Explain.",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2081 Baishakh",
+        "marks": "2+8",
+        "question": "What is byzantine problem? Explain the backward recovery approaches in DS.",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2080 Bhadra",
+        "marks": "2+6",
+        "question": "Define mutual exclusion in distributed system. Explain the steps to elect coordinator in process resilience system.",
+        "unit": 6,
+        "chapter": [
+            6.1,
+            9.2
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2080 Baishakh",
+        "marks": "5+5",
+        "question": "What are the different consistency models applicable in a distributed system? How does a primary-backup model work?",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2079 Bhadra",
+        "marks": "3+4+2",
+        "question": "List the challenges of replication in DS. Explain how passive replication model supports in fault tolerance. How it is differ than active replication model?",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2078 Bhadra",
+        "marks": "4+5",
+        "question": "Compare and contrast token based mutual exclusion algorithm and non-token based mutual exclusion algorithm. Explain the various state of Ricart Agrawala token based mutual exclusion.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2076 Chaitra",
+        "marks": "2+4+2",
+        "question": "What is fault? How to implement primary-backup replica system? How is it differ from active replication?",
+        "unit": 7,
+        "chapter": [
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Explain reliable multicast with its properties and an algorithm.",
+        "unit": 6,
+        "chapter": [
+            6.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2075 Chaitra",
+        "marks": "2+6",
+        "question": "How token system works for mutual exclusion in Distributed System. Explain with token based Algorithm.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2075 Ashwin",
+        "marks": "2+4",
+        "question": "What is Network Time Protocol (NTP)? How Berkeley minimizes the problems of single time server failures of Chistian's algorithm.",
+        "unit": 5,
+        "chapter": [
+            "5.1.4"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2074 Ashwin",
+        "marks": "8",
+        "question": "Describe non-token based centralized and Ricart Agrawala algorithm with example and compare them.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2073 Shrawan",
+        "marks": "2+6",
+        "question": "Define distributed coordination in DS? Explain how token ring algorithm works for mutual exclusion in DS.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2072 Chaitra",
+        "marks": "2+8",
+        "question": "What are the basic requirements for mutual exclusion in distributed system? Explain the non-token based distributed mutual exclusion algorithm and compare it with token based algorithm.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2071 Shrawan",
+        "marks": "3+5",
+        "question": "How to come to consensus in DS? Discuss with an approach, how do you make the distributed system service highly available?",
+        "unit": 7,
+        "chapter": [
+            7.5,
+            6.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2072 Kartik",
+        "marks": "2+6",
+        "question": "Why it is difficult to synchronize physical clock? Explain how clock synchronization can be solved using logical clock.",
+        "unit": 5,
+        "chapter": [
+            "5.1.1",
+            "5.1.2"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2071 Chaitra",
+        "marks": "10",
+        "question": "Explain with algorithmic steps, how token ring algorithm works for mutual exclusion in distributed system.",
+        "unit": 6,
+        "chapter": [
+            6.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 6,
+        "year": "2070 Ashad",
+        "marks": "5+3",
+        "question": "Explain any one election technique in Distributed System. Discuss with steps how consensus can be achieved in Distributed System.",
+        "unit": 6,
+        "chapter": [
+            6.3,
+            6.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 6,
+        "year": "2069 Chaitra",
+        "marks": "2+4",
+        "question": "Present a practical scenario where you need an election algorithm. Explain an election algorithm with example that is suitable to your scenario.",
+        "unit": 6,
+        "chapter": [
+            6.3
+        ],
+        "Type": "Regular"
+    }
 ]

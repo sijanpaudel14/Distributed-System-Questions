@@ -1,146 +1,219 @@
 [
-  {
-    "question_no": 4,
-    "year": "2081 Bhadra",
-    "marks": "2+4",
-    "question": "How did the international atomic clock establish? List the basic principle of Lamport's clock and proposed the approach to avoid issues with Lamport's clock.",
-    "unit": 5,
-    "chapter": [5.1, "5.1.2"]
-  },
-  {
-    "question_no": 4,
-    "year": "2081 Baishakh",
-    "marks": "2+8",
-    "question": "What is the difference between physical and logical clock? Discuss the principles of Lamport's clock with algorithm.",
-    "unit": 5,
-    "chapter": ["5.1.1", "5.1.2"]
-  },
-  {
-    "question_no": 4,
-    "year": "2080 Bhadra",
-    "marks": "2+6",
-    "question": "What is RMI? Explain CORBA architecture in Distributed System along with services.",
-    "unit": 4,
-    "chapter": [4.5, 4.4]
-  },
-  {
-    "question_no": 4,
-    "year": "2080 Baishakh",
-    "marks": "2+4+2",
-    "question": "What is physical and logical clock? Explain the importance of VECTOR clock with its implementation rules and example.",
-    "unit": 5,
-    "chapter": ["5.1.1", "5.1.2", "5.1.3"]
-  },
-  {
-    "question_no": 4,
-    "year": "2079 Bhadra",
-    "marks": "4+6",
-    "question": "Define cuts of a distributed computation along with its types. How is casual ordering of message realized using vector clocks?",
-    "unit": 5,
-    "chapter": [5.3, 5.2]
-  },
-  {
-    "question_no": 4,
-    "year": "2078 Bhadra",
-    "marks": "4+4",
-    "question": "What are the design issues on NFS? Show the complete working of DNS.",
-    "unit": 2,
-    "chapter": [2.8, 2.10]
-  },
-  {
-    "question_no": 4,
-    "year": "2076 Chaitra",
-    "marks": "2+8",
-    "question": "What is the issue in Lamport's timestamp? How do you avoid the issue? Explain with your alternate algorithm.",
-    "unit": 5,
-    "chapter": ["5.1.2"]
-  },
-  {
-    "question_no": 4,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Explain components in CORBA architecture with a diagram.",
-    "unit": 4,
-    "chapter": [4.4]
-  },
-  {
-    "question_no": 4,
-    "year": "2075 Chaitra",
-    "marks": "3+5",
-    "question": "Compare heterogeneous and homogeneous distributed system. Explain the CORBA architecture and its services.",
-    "unit": 4,
-    "chapter": [4.1, 4.4, 4.5]
-  },
-  {
-    "question_no": 4,
-    "year": "2075 Ashwin",
-    "marks": "2+4",
-    "question": "What do you mean by DOS (Distributed Operating System)? Briefly explain the Monolithic and microkernel architectures of operation system.",
-    "unit": 3,
-    "chapter": [3.1, 3.5]
-  },
-  {
-    "question_no": 4,
-    "year": "2074 Ashwin",
-    "marks": "4+4",
-    "question": "What are the characteristics of distributed operating system? Explain ORB and its interfaces.",
-    "unit": 3,
-    "chapter": [3.1, 4.4]
-  },
-  {
-    "question_no": 4,
-    "year": "2073 Shrawan",
-    "marks": "4, 2+6",
-    "question": "a) What are the components of CORBA environment?\nb) What do you mean by logical clock? Explain Lamport's Logical clock.",
-    "unit": 4,
-    "chapter": [4.4, "5.1.2"]
-  },
-  {
-    "question_no": 4,
-    "year": "2072 Chaitra",
-    "marks": "2+8",
-    "question": "What is the role of middleware in DS? Explain about CORBA and its services.",
-    "unit": 4,
-    "chapter": [4.2, 4.4, 4.5]
-  },
-  {
-    "question_no": 4,
-    "year": "2071 Shrawan",
-    "marks": "3+5",
-    "question": "What are the common problems of physical clock synchronization algorithms? Write Chandy-Lamport's algorithm for recording global states in Distributed System.",
-    "unit": 5,
-    "chapter": ["5.1.1", "5.4", "5.3"]
-  },
-  {
-    "question_no": 4,
-    "year": "2072 Kartik",
-    "marks": "4+2+2",
-    "question": "How threads differ from process? How does checkpoint help in recovery? What does distributed commit refer to?",
-    "unit": 3,
-    "chapter": [3.3, 9.5, 9.4]
-  },
-  {
-    "question_no": 4,
-    "year": "2071 Chaitra",
-    "marks": "8",
-    "question": "Write the importance of election algorithm. Explain BULLY algorithm with suitable example. Compare it with Ring based algorithm.",
-    "unit": 6,
-    "chapter": [6.3]
-  },
-  {
-    "question_no": 4,
-    "year": "2070 Ashad",
-    "marks": "4",
-    "question": "Differentiate between homogenous and heterogeneous distributed applications with example.",
-    "unit": 4,
-    "chapter": [4.1]
-  },
-  {
-    "question_no": 4,
-    "year": "2069 Chaitra",
-    "marks": "4+4",
-    "question": "Why network operating system (NOS) is widely preferred over distributed operating system (DOS) in practical distributed systems? Explain DOS as a middleware.",
-    "unit": 3,
-    "chapter": [3.2, 4.2]
-  }
+    {
+        "question_no": 4,
+        "year": "2081 Bhadra",
+        "marks": "2+4",
+        "question": "How did the international atomic clock establish? List the basic principle of Lamport's clock and proposed the approach to avoid issues with Lamport's clock.",
+        "unit": 5,
+        "chapter": [
+            5.1,
+            "5.1.2"
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2081 Baishakh",
+        "marks": "2+8",
+        "question": "What is the difference between physical and logical clock? Discuss the principles of Lamport's clock with algorithm.",
+        "unit": 5,
+        "chapter": [
+            "5.1.1",
+            "5.1.2"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2080 Bhadra",
+        "marks": "2+6",
+        "question": "What is RMI? Explain CORBA architecture in Distributed System along with services.",
+        "unit": 4,
+        "chapter": [
+            4.5,
+            4.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2080 Baishakh",
+        "marks": "2+4+2",
+        "question": "What is physical and logical clock? Explain the importance of VECTOR clock with its implementation rules and example.",
+        "unit": 5,
+        "chapter": [
+            "5.1.1",
+            "5.1.2",
+            "5.1.3"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2079 Bhadra",
+        "marks": "4+6",
+        "question": "Define cuts of a distributed computation along with its types. How is casual ordering of message realized using vector clocks?",
+        "unit": 5,
+        "chapter": [
+            5.3,
+            5.2
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2078 Bhadra",
+        "marks": "4+4",
+        "question": "What are the design issues on NFS? Show the complete working of DNS.",
+        "unit": 2,
+        "chapter": [
+            2.8,
+            2.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2076 Chaitra",
+        "marks": "2+8",
+        "question": "What is the issue in Lamport's timestamp? How do you avoid the issue? Explain with your alternate algorithm.",
+        "unit": 5,
+        "chapter": [
+            "5.1.2"
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Explain components in CORBA architecture with a diagram.",
+        "unit": 4,
+        "chapter": [
+            4.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2075 Chaitra",
+        "marks": "3+5",
+        "question": "Compare heterogeneous and homogeneous distributed system. Explain the CORBA architecture and its services.",
+        "unit": 4,
+        "chapter": [
+            4.1,
+            4.4,
+            4.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2075 Ashwin",
+        "marks": "2+4",
+        "question": "What do you mean by DOS (Distributed Operating System)? Briefly explain the Monolithic and microkernel architectures of operation system.",
+        "unit": 3,
+        "chapter": [
+            3.1,
+            3.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2074 Ashwin",
+        "marks": "4+4",
+        "question": "What are the characteristics of distributed operating system? Explain ORB and its interfaces.",
+        "unit": 3,
+        "chapter": [
+            3.1,
+            4.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2073 Shrawan",
+        "marks": "4, 2+6",
+        "question": "a) What are the components of CORBA environment?\nb) What do you mean by logical clock? Explain Lamport's Logical clock.",
+        "unit": 4,
+        "chapter": [
+            4.4,
+            "5.1.2"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2072 Chaitra",
+        "marks": "2+8",
+        "question": "What is the role of middleware in DS? Explain about CORBA and its services.",
+        "unit": 4,
+        "chapter": [
+            4.2,
+            4.4,
+            4.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2071 Shrawan",
+        "marks": "3+5",
+        "question": "What are the common problems of physical clock synchronization algorithms? Write Chandy-Lamport's algorithm for recording global states in Distributed System.",
+        "unit": 5,
+        "chapter": [
+            "5.1.1",
+            "5.4",
+            "5.3"
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2072 Kartik",
+        "marks": "4+2+2",
+        "question": "How threads differ from process? How does checkpoint help in recovery? What does distributed commit refer to?",
+        "unit": 3,
+        "chapter": [
+            3.3,
+            9.5,
+            9.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2071 Chaitra",
+        "marks": "8",
+        "question": "Write the importance of election algorithm. Explain BULLY algorithm with suitable example. Compare it with Ring based algorithm.",
+        "unit": 6,
+        "chapter": [
+            6.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 4,
+        "year": "2070 Ashad",
+        "marks": "4",
+        "question": "Differentiate between homogenous and heterogeneous distributed applications with example.",
+        "unit": 4,
+        "chapter": [
+            4.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 4,
+        "year": "2069 Chaitra",
+        "marks": "4+4",
+        "question": "Why network operating system (NOS) is widely preferred over distributed operating system (DOS) in practical distributed systems? Explain DOS as a middleware.",
+        "unit": 3,
+        "chapter": [
+            3.2,
+            4.2
+        ],
+        "Type": "Regular"
+    }
 ]

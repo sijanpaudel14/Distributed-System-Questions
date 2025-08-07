@@ -1,146 +1,212 @@
 [
-  {
-    "question_no": 7,
-    "year": "2081 Bhadra",
-    "marks": "3+5",
-    "question": "What are the benefits and drawbacks of using locks in distributed transaction processing? Explain the timestamp-based ordering technique for concurrency control in DS.",
-    "unit": 8,
-    "chapter": [8.2, 8.3]
-  },
-  {
-    "question_no": 7,
-    "year": "2081 Baishakh",
-    "marks": "2+8",
-    "question": "What do you mean by Distributed Commit? What is the difference between two phase and three phase commit protocol? Explain.",
-    "unit": 8,
-    "chapter": [8.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2080 Bhadra",
-    "marks": "2+3+3",
-    "question": "What is the requirement for replications? Compare passive and active replication architectures with necessary figures and steps.",
-    "unit": 7,
-    "chapter": [7.1, 7.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2080 Baishakh",
-    "marks": "2+6",
-    "question": "Briefly explain different methods for concurrency control. What are the drawbacks of 2PL and how does strict 2PL overcome those?",
-    "unit": 8,
-    "chapter": [8.2]
-  },
-  {
-    "question_no": 7,
-    "year": "2079 Bhadra",
-    "marks": "4+4",
-    "question": "Define flat and nested transactions. Discuss the approach of optimistic concurrency control in distributed transactions.",
-    "unit": 8,
-    "chapter": [8.1, 8.5]
-  },
-  {
-    "question_no": 7,
-    "year": "2078 Bhadra",
-    "marks": "2+4+2",
-    "question": "Mention the requirements and challenges of replication. Explain active replication model in fault tolerance. How it is differ than passive model?",
-    "unit": 7,
-    "chapter": [7.1, 7.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2076 Chaitra",
-    "marks": "2+6",
-    "question": "What do you mean by forward and backward recovery? How to implement coordinated check pointing for recovery in DS?",
-    "unit": 9,
-    "chapter": [9.3, 9.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Specify Data Centric consistency models and explain any one of them in detail.",
-    "unit": 7,
-    "chapter": [7.2]
-  },
-  {
-    "question_no": 7,
-    "year": "2075 Chaitra",
-    "marks": "2+6",
-    "question": "How replication is used as a basic scaling technique in distributed system? Explain the active replication model with its advantages and disadvantages.",
-    "unit": 7,
-    "chapter": [7.1, 7.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2075 Ashwin",
-    "marks": "2+6",
-    "question": "What is the need of an election algorithm? Explain non token based Ricart-Agrawala mutual exclusion algorithm along with an example.",
-    "unit": 6,
-    "chapter": [6.2]
-  },
-  {
-    "question_no": 7,
-    "year": "2074 Ashwin",
-    "marks": "3+5",
-    "question": "Differentiate between active and passive replication. Explain working mechanism of active replication.",
-    "unit": 7,
-    "chapter": [7.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2073 Shrawan",
-    "marks": "6+2",
-    "question": "Define replication and fault tolerance in DS and explain why are they necessary? Explain how replication enhanced scalability for DS.",
-    "unit": 7,
-    "chapter": [7.1, 7.5]
-  },
-  {
-    "question_no": 7,
-    "year": "2072 Chaitra",
-    "marks": "3+5",
-    "question": "What are the reasons for Replication? Explain active replication model with its advantages and disadvantages.",
-    "unit": 7,
-    "chapter": [7.1, 7.4]
-  },
-  {
-    "question_no": 7,
-    "year": "2071 Shrawan",
-    "marks": "4+8",
-    "question": "What are the relationships between parent and child transactions in DS? Write the problems of locking with the solutions to avoid it.",
-    "unit": 8,
-    "chapter": [8.1, 8.2]
-  },
-  {
-    "question_no": 7,
-    "year": "2072 Kartik",
-    "marks": "4+4",
-    "question": "What are the reasons for replicating the service provide? Discuss about fault tolerant services.",
-    "unit": 7,
-    "chapter": [7.5]
-  },
-  {
-    "question_no": 7,
-    "year": "2071 Chaitra",
-    "marks": "8",
-    "question": "Explain Byzantine general problem to handle faulty process with example. Describe any one failure recovery technique.",
-    "unit": 9,
-    "chapter": [9.1, 9.3]
-  },
-  {
-    "question_no": 7,
-    "year": "2070 Ashad",
-    "marks": "2+4",
-    "question": "How do you say that replication is one of the scaling techniques in Distributed System? How to handle concurrent invocations with object replication in distributed object based system?",
-    "unit": 7,
-    "chapter": [7.1, 7.3]
-  },
-  {
-    "question_no": 7,
-    "year": "2069 Chaitra",
-    "marks": "2+4",
-    "question": "Compare passive replication with active replication approach. Also discuss with a technique that make the distributed system service highly available.",
-    "unit": 7,
-    "chapter": [7.4, 7.5]
-  }
+    {
+        "question_no": 7,
+        "year": "2081 Bhadra",
+        "marks": "3+5",
+        "question": "What are the benefits and drawbacks of using locks in distributed transaction processing? Explain the timestamp-based ordering technique for concurrency control in DS.",
+        "unit": 8,
+        "chapter": [
+            8.2,
+            8.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2081 Baishakh",
+        "marks": "2+8",
+        "question": "What do you mean by Distributed Commit? What is the difference between two phase and three phase commit protocol? Explain.",
+        "unit": 8,
+        "chapter": [
+            8.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2080 Bhadra",
+        "marks": "2+3+3",
+        "question": "What is the requirement for replications? Compare passive and active replication architectures with necessary figures and steps.",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2080 Baishakh",
+        "marks": "2+6",
+        "question": "Briefly explain different methods for concurrency control. What are the drawbacks of 2PL and how does strict 2PL overcome those?",
+        "unit": 8,
+        "chapter": [
+            8.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2079 Bhadra",
+        "marks": "4+4",
+        "question": "Define flat and nested transactions. Discuss the approach of optimistic concurrency control in distributed transactions.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2078 Bhadra",
+        "marks": "2+4+2",
+        "question": "Mention the requirements and challenges of replication. Explain active replication model in fault tolerance. How it is differ than passive model?",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2076 Chaitra",
+        "marks": "2+6",
+        "question": "What do you mean by forward and backward recovery? How to implement coordinated check pointing for recovery in DS?",
+        "unit": 9,
+        "chapter": [
+            9.3,
+            9.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Specify Data Centric consistency models and explain any one of them in detail.",
+        "unit": 7,
+        "chapter": [
+            7.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2075 Chaitra",
+        "marks": "2+6",
+        "question": "How replication is used as a basic scaling technique in distributed system? Explain the active replication model with its advantages and disadvantages.",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2075 Ashwin",
+        "marks": "2+6",
+        "question": "What is the need of an election algorithm? Explain non token based Ricart-Agrawala mutual exclusion algorithm along with an example.",
+        "unit": 6,
+        "chapter": [
+            6.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2074 Ashwin",
+        "marks": "3+5",
+        "question": "Differentiate between active and passive replication. Explain working mechanism of active replication.",
+        "unit": 7,
+        "chapter": [
+            7.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2073 Shrawan",
+        "marks": "6+2",
+        "question": "Define replication and fault tolerance in DS and explain why are they necessary? Explain how replication enhanced scalability for DS.",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2072 Chaitra",
+        "marks": "3+5",
+        "question": "What are the reasons for Replication? Explain active replication model with its advantages and disadvantages.",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2071 Shrawan",
+        "marks": "4+8",
+        "question": "What are the relationships between parent and child transactions in DS? Write the problems of locking with the solutions to avoid it.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2072 Kartik",
+        "marks": "4+4",
+        "question": "What are the reasons for replicating the service provide? Discuss about fault tolerant services.",
+        "unit": 7,
+        "chapter": [
+            7.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2071 Chaitra",
+        "marks": "8",
+        "question": "Explain Byzantine general problem to handle faulty process with example. Describe any one failure recovery technique.",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 7,
+        "year": "2070 Ashad",
+        "marks": "2+4",
+        "question": "How do you say that replication is one of the scaling techniques in Distributed System? How to handle concurrent invocations with object replication in distributed object based system?",
+        "unit": 7,
+        "chapter": [
+            7.1,
+            7.3
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 7,
+        "year": "2069 Chaitra",
+        "marks": "2+4",
+        "question": "Compare passive replication with active replication approach. Also discuss with a technique that make the distributed system service highly available.",
+        "unit": 7,
+        "chapter": [
+            7.4,
+            7.5
+        ],
+        "Type": "Regular"
+    }
 ]

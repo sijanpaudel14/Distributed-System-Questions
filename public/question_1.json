@@ -1,146 +1,222 @@
 [
-  {
-    "question_no": 1,
-    "year": "2081 Bhadra",
-    "marks": "2+6",
-    "question": "Define distributed system (DS). Briefly discuss about the models of DS.",
-    "unit": 1,
-    "chapter": [1.1, 1.7]
-  },
-  {
-    "question_no": 1,
-    "year": "2081 Baishakh",
-    "marks": "2+8",
-    "question": "What is Distributed System (DS)? Write the importance and goals of DS.",
-    "unit": 1,
-    "chapter": [1.1, 1.5]
-  },
-  {
-    "question_no": 1,
-    "year": "2080 Bhadra",
-    "marks": "2+6",
-    "question": "Define the term \"distributed system\". In terms of qualities, advantages and complexities, Compare it with the centralized systems.",
-    "unit": 1,
-    "chapter": [1.1, 1.3, 1.4, 1.6]
-  },
-  {
-    "question_no": 1,
-    "year": "2080 Baishakh",
-    "marks": "2+6",
-    "question": "What is Distributed System (DS)? Write the importance and goals of DS.",
-    "unit": 1,
-    "chapter": [1.1, 1.5]
-  },
-  {
-    "question_no": 1,
-    "year": "2079 Bhadra",
-    "marks": "2+6",
-    "question": "What is Distributed System (DS)? Write the importance and goals of DS.",
-    "unit": 1,
-    "chapter": [1.1, 1.5]
-  },
-  {
-    "question_no": 1,
-    "year": "2078 Bhadra",
-    "marks": "2+6",
-    "question": "What do you mean by Distributed System (DS)? Explain various models of Distributed Computing Systems.",
-    "unit": 1,
-    "chapter": [1.1, 1.7]
-  },
-  {
-    "question_no": 1,
-    "year": "2076 Chaitra",
-    "marks": "2+8",
-    "question": "Define Distributed System (DS). Explain the requirements to successfully implement DS to suit to modern computing.",
-    "unit": 1,
-    "chapter": [1.1, 1.8]
-  },
-  {
-    "question_no": 1,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "What are the major goals of distributed system and what are the challenges during the design of distributed system.",
-    "unit": 1,
-    "chapter": [1.5, 1.6]
-  },
-  {
-    "question_no": 1,
-    "year": "2075 Chaitra",
-    "marks": "4+4",
-    "question": "Why distributed system is preferred over centralized system? Explain the layers of transparency.",
-    "unit": 1,
-    "chapter": [1.4, 1.5]
-  },
-  {
-    "question_no": 1,
-    "year": "2075 Ashwin",
-    "marks": "2+6",
-    "question": "Define distributed system? Explain Transparency Properties of Distributed System.",
-    "unit": 1,
-    "chapter": [1.1, 1.5]
-  },
-  {
-    "question_no": 1,
-    "year": "2074 Ashwin",
-    "marks": 8,
-    "question": "Why there are challenges in achieving some requirements of a distributed system? Explain the challenges associated with different requirements of distributed system.",
-    "unit": 1,
-    "chapter": [1.6, 1.5]
-  },
-  {
-    "question_no": 1,
-    "year": "2073 Shrawan",
-    "marks": "3+5",
-    "question": "What are the principle applications of Distributed System (DS)? Discuss the advantages and disadvantages of DS.",
-    "unit": 1,
-    "chapter": [1.2, 1.4]
-  },
-  {
-    "question_no": 1,
-    "year": "2072 Chaitra",
-    "marks": "2+6",
-    "question": "Differentiate between centralized and distributed system? Explain the design issues related to distributed system.",
-    "unit": 1,
-    "chapter": [1.3, 1.6]
-  },
-  {
-    "question_no": 1,
-    "year": "2071 Shrawan",
-    "marks": "6+2",
-    "question": "Discuss the properties of Distributed System (DS). How interaction model addresses the relevant issues in DS?",
-    "unit": 1,
-    "chapter": [1.3, 1.6]
-  },
-  {
-    "question_no": 1,
-    "year": "2072 Kartik",
-    "marks": "2+6",
-    "question": "What is Distributed System? Discuss the challenges of Distribution System with example.",
-    "unit": 1,
-    "chapter": [1.1, 1.6]
-  },
-  {
-    "question_no": 1,
-    "year": "2071 Chaitra",
-    "marks": "6+2",
-    "question": "\"Distributed system acts as a single coherent system to its end user.\" Justify the statement with its features and challenges. What is fundamental model?",
-    "unit": 1,
-    "chapter": [1.1, 1.3, 1.6, 1.7]
-  },
-  {
-    "question_no": 1,
-    "year": "2070 Ashad",
-    "marks": "2+6",
-    "question": "How do you define Distributed System? Explain with the model, how hardware, data and controls are distributed in the distributed system environment.",
-    "unit": 1,
-    "chapter": [1.1, 1.7]
-  },
-  {
-    "question_no": 1,
-    "year": "2069 Chaitra",
-    "marks": "4+4",
-    "question": "What are the major goals of distributed system? Explain the need of transparency in distributed system along with the challenges in achieving that.",
-    "unit": 1,
-    "chapter": [1.5, 1.6]
-  }
+    {
+        "question_no": 1,
+        "year": "2081 Bhadra",
+        "marks": "2+6",
+        "question": "Define distributed system (DS). Briefly discuss about the models of DS.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.7
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2081 Baishakh",
+        "marks": "2+8",
+        "question": "What is Distributed System (DS)? Write the importance and goals of DS.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2080 Bhadra",
+        "marks": "2+6",
+        "question": "Define the term \"distributed system\". In terms of qualities, advantages and complexities, Compare it with the centralized systems.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.3,
+            1.4,
+            1.6
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2080 Baishakh",
+        "marks": "2+6",
+        "question": "What is Distributed System (DS)? Write the importance and goals of DS.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2079 Bhadra",
+        "marks": "2+6",
+        "question": "What is Distributed System (DS)? Write the importance and goals of DS.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2078 Bhadra",
+        "marks": "2+6",
+        "question": "What do you mean by Distributed System (DS)? Explain various models of Distributed Computing Systems.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.7
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2076 Chaitra",
+        "marks": "2+8",
+        "question": "Define Distributed System (DS). Explain the requirements to successfully implement DS to suit to modern computing.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.8
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "What are the major goals of distributed system and what are the challenges during the design of distributed system.",
+        "unit": 1,
+        "chapter": [
+            1.5,
+            1.6
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2075 Chaitra",
+        "marks": "4+4",
+        "question": "Why distributed system is preferred over centralized system? Explain the layers of transparency.",
+        "unit": 1,
+        "chapter": [
+            1.4,
+            1.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2075 Ashwin",
+        "marks": "2+6",
+        "question": "Define distributed system? Explain Transparency Properties of Distributed System.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2074 Ashwin",
+        "marks": 8,
+        "question": "Why there are challenges in achieving some requirements of a distributed system? Explain the challenges associated with different requirements of distributed system.",
+        "unit": 1,
+        "chapter": [
+            1.6,
+            1.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2073 Shrawan",
+        "marks": "3+5",
+        "question": "What are the principle applications of Distributed System (DS)? Discuss the advantages and disadvantages of DS.",
+        "unit": 1,
+        "chapter": [
+            1.2,
+            1.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2072 Chaitra",
+        "marks": "2+6",
+        "question": "Differentiate between centralized and distributed system? Explain the design issues related to distributed system.",
+        "unit": 1,
+        "chapter": [
+            1.3,
+            1.6
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2071 Shrawan",
+        "marks": "6+2",
+        "question": "Discuss the properties of Distributed System (DS). How interaction model addresses the relevant issues in DS?",
+        "unit": 1,
+        "chapter": [
+            1.3,
+            1.6
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2072 Kartik",
+        "marks": "2+6",
+        "question": "What is Distributed System? Discuss the challenges of Distribution System with example.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.6
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2071 Chaitra",
+        "marks": "6+2",
+        "question": "\"Distributed system acts as a single coherent system to its end user.\" Justify the statement with its features and challenges. What is fundamental model?",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.3,
+            1.6,
+            1.7
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 1,
+        "year": "2070 Ashad",
+        "marks": "2+6",
+        "question": "How do you define Distributed System? Explain with the model, how hardware, data and controls are distributed in the distributed system environment.",
+        "unit": 1,
+        "chapter": [
+            1.1,
+            1.7
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 1,
+        "year": "2069 Chaitra",
+        "marks": "4+4",
+        "question": "What are the major goals of distributed system? Explain the need of transparency in distributed system along with the challenges in achieving that.",
+        "unit": 1,
+        "chapter": [
+            1.5,
+            1.6
+        ],
+        "Type": "Regular"
+    }
 ]

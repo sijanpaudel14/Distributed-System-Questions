@@ -1,146 +1,217 @@
 [
-  {
-    "question_no": 3,
-    "year": "2081 Bhadra",
-    "marks": "2+6",
-    "question": "What is the difference between stateful and stateless distributed file system? Discuss the working principle of any one modern Distributed File System with its architecture.",
-    "unit": 2,
-    "chapter": [2.6, 2.7]
-  },
-  {
-    "question_no": 3,
-    "year": "2081 Baishakh",
-    "marks": "10",
-    "question": "Explain the principle operation with architecture of recently used distributed file system.",
-    "unit": 2,
-    "chapter": [2.6, 2.7]
-  },
-  {
-    "question_no": 3,
-    "year": "2080 Bhadra",
-    "marks": "4+4",
-    "question": "Explain file service architecture for DFS. Define queries and operation of distributed hierarchical DB: DNS.",
-    "unit": 2,
-    "chapter": [2.7, 2.9, 2.10]
-  },
-  {
-    "question_no": 3,
-    "year": "2080 Baishakh",
-    "marks": "3+5",
-    "question": "Compare stateful and stateless services. Explain the operation and architecture of any one modern distributed file system.",
-    "unit": 2,
-    "chapter": [2.6, 2.7]
-  },
-  {
-    "question_no": 3,
-    "year": "2079 Bhadra",
-    "marks": "4+5",
-    "question": "Define distributed object and remote interface. How RMI helps in distributed programming model? Explain with architecture.",
-    "unit": 2,
-    "chapter": [2.1, 2.5]
-  },
-  {
-    "question_no": 3,
-    "year": "2078 Bhadra",
-    "marks": "4, 4",
-    "question": "a) What are the key differences between Network OS and Distributed OS.\nb) Explain the various roles of middleware in DS.",
-    "unit": 3,
-    "chapter": [3.1, 4.2]
-  },
-  {
-    "question_no": 3,
-    "year": "2076 Chaitra",
-    "marks": "2+7",
-    "question": "What is distributed file system? Explain the principle operations of any one modern distributed file system?",
-    "unit": 2,
-    "chapter": [2.6, 2.7]
-  },
-  {
-    "question_no": 3,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "Define Distributed file system. Point out the differences between stateless and stateful services.",
-    "unit": 2,
-    "chapter": [2.6]
-  },
-  {
-    "question_no": 3,
-    "year": "2075 Chaitra",
-    "marks": "2+6",
-    "question": "Compare Stateful and stateless service. Describe the architecture and operation of SUNNFS with its services.",
-    "unit": 2,
-    "chapter": [2.6, 2.8]
-  },
-  {
-    "question_no": 3,
-    "year": "2075 Ashwin",
-    "marks": "2+6",
-    "question": "What is DNS? Explain the DNS working mechanisms with suitable example.",
-    "unit": 2,
-    "chapter": [2.9, 2.10]
-  },
-  {
-    "question_no": 3,
-    "year": "2074 Ashwin",
-    "marks": "3+5",
-    "question": "What is stateful and stateless service in file system? Explain the DNS working mechanism with suitable practical example.",
-    "unit": 2,
-    "chapter": [2.6, 2.9, 2.10]
-  },
-  {
-    "question_no": 3,
-    "year": "2073 Shrawan",
-    "marks": "1+4, 2+3",
-    "question": "a) Why naming is necessary in distributed system? Explain Domain Naming Service (DNS) with its features.\nb) What are the advantages of micro-kernel over monolithic-kernel? In your view, which kernel is preferable for distributed Operating system and why?",
-    "unit": 2,
-    "chapter": [2.9, 3.2]
-  },
-  {
-    "question_no": 3,
-    "year": "2072 Chaitra",
-    "marks": "8+2",
-    "question": "Explain RMI with suitable diagram. How RMI is superior to RPC?",
-    "unit": 2,
-    "chapter": [2.5, 2.3]
-  },
-  {
-    "question_no": 3,
-    "year": "2071 Shrawan",
-    "marks": "3+5",
-    "question": "What are the characteristics of SUN-NFS? Discuss with its architecture.",
-    "unit": 2,
-    "chapter": [2.8]
-  },
-  {
-    "question_no": 3,
-    "year": "2072 Kartik",
-    "marks": "8",
-    "question": "Define DFS. How does DFS encourage sharing a storage device? Explain with the help of suitable architecture.",
-    "unit": 2,
-    "chapter": [2.6, 2.7]
-  },
-  {
-    "question_no": 3,
-    "year": "2071 Chaitra",
-    "marks": "10",
-    "question": "Verify with proper explanations that DNS is a distributed hierarchical database system.",
-    "unit": 2,
-    "chapter": [2.9]
-  },
-  {
-    "question_no": 3,
-    "year": "2070 Ashad",
-    "marks": "2+6",
-    "question": "Define distributed file system. Draw and explain distributed file service architecture in detail.",
-    "unit": 2,
-    "chapter": [2.6, 2.7]
-  },
-  {
-    "question_no": 3,
-    "year": "2069 Chaitra",
-    "marks": "3+5",
-    "question": "What do you mean by file and directory service? Explain the operation of SUN NFS with its architecture.",
-    "unit": 2,
-    "chapter": [2.6, 2.8]
-  }
+    {
+        "question_no": 3,
+        "year": "2081 Bhadra",
+        "marks": "2+6",
+        "question": "What is the difference between stateful and stateless distributed file system? Discuss the working principle of any one modern Distributed File System with its architecture.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.7
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2081 Baishakh",
+        "marks": "10",
+        "question": "Explain the principle operation with architecture of recently used distributed file system.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.7
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2080 Bhadra",
+        "marks": "4+4",
+        "question": "Explain file service architecture for DFS. Define queries and operation of distributed hierarchical DB: DNS.",
+        "unit": 2,
+        "chapter": [
+            2.7,
+            2.9,
+            2.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2080 Baishakh",
+        "marks": "3+5",
+        "question": "Compare stateful and stateless services. Explain the operation and architecture of any one modern distributed file system.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.7
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2079 Bhadra",
+        "marks": "4+5",
+        "question": "Define distributed object and remote interface. How RMI helps in distributed programming model? Explain with architecture.",
+        "unit": 2,
+        "chapter": [
+            2.1,
+            2.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2078 Bhadra",
+        "marks": "4, 4",
+        "question": "a) What are the key differences between Network OS and Distributed OS.\nb) Explain the various roles of middleware in DS.",
+        "unit": 3,
+        "chapter": [
+            3.1,
+            4.2
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2076 Chaitra",
+        "marks": "2+7",
+        "question": "What is distributed file system? Explain the principle operations of any one modern distributed file system?",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.7
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "Define Distributed file system. Point out the differences between stateless and stateful services.",
+        "unit": 2,
+        "chapter": [
+            2.6
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2075 Chaitra",
+        "marks": "2+6",
+        "question": "Compare Stateful and stateless service. Describe the architecture and operation of SUNNFS with its services.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.8
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2075 Ashwin",
+        "marks": "2+6",
+        "question": "What is DNS? Explain the DNS working mechanisms with suitable example.",
+        "unit": 2,
+        "chapter": [
+            2.9,
+            2.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2074 Ashwin",
+        "marks": "3+5",
+        "question": "What is stateful and stateless service in file system? Explain the DNS working mechanism with suitable practical example.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.9,
+            2.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2073 Shrawan",
+        "marks": "1+4, 2+3",
+        "question": "a) Why naming is necessary in distributed system? Explain Domain Naming Service (DNS) with its features.\nb) What are the advantages of micro-kernel over monolithic-kernel? In your view, which kernel is preferable for distributed Operating system and why?",
+        "unit": 2,
+        "chapter": [
+            2.9,
+            3.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2072 Chaitra",
+        "marks": "8+2",
+        "question": "Explain RMI with suitable diagram. How RMI is superior to RPC?",
+        "unit": 2,
+        "chapter": [
+            2.5,
+            2.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2071 Shrawan",
+        "marks": "3+5",
+        "question": "What are the characteristics of SUN-NFS? Discuss with its architecture.",
+        "unit": 2,
+        "chapter": [
+            2.8
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2072 Kartik",
+        "marks": "8",
+        "question": "Define DFS. How does DFS encourage sharing a storage device? Explain with the help of suitable architecture.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.7
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2071 Chaitra",
+        "marks": "10",
+        "question": "Verify with proper explanations that DNS is a distributed hierarchical database system.",
+        "unit": 2,
+        "chapter": [
+            2.9
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 3,
+        "year": "2070 Ashad",
+        "marks": "2+6",
+        "question": "Define distributed file system. Draw and explain distributed file service architecture in detail.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.7
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 3,
+        "year": "2069 Chaitra",
+        "marks": "3+5",
+        "question": "What do you mean by file and directory service? Explain the operation of SUN NFS with its architecture.",
+        "unit": 2,
+        "chapter": [
+            2.6,
+            2.8
+        ],
+        "Type": "Regular"
+    }
 ]

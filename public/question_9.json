@@ -1,138 +1,220 @@
 [
-  {
-    "question_no": 9,
-    "year": "2081 Bhadra",
-    "marks": "3+5",
-    "question": "Define fault, error and failure. How do you detect arbitrary faults and recover it? Explain.",
-    "unit": 9,
-    "chapter": [9.1, 9.2]
-  },
-  {
-    "question_no": 9,
-    "year": "2080 Bhadra",
-    "marks": "4+4",
-    "question": "Define faults, failures and errors. How to achieve agreement in faulty system over reliable channel? Explain.",
-    "unit": 9,
-    "chapter": [9.1, 9.5]
-  },
-  {
-    "question_no": 9,
-    "year": "2080 Baishakh",
-    "marks": "3x4",
-    "question": "Write short notes on: (Any Three)\n\na) MACH\n\nb) Strongly Consistent CUT in DS\n\nc) Multithreading in DS\n\nd) CORBA services",
-    "unit": 4,
-    "chapter": [4.4, 3.5, 4.3, 4.2]
-  },
-  {
-    "question_no": 9,
-    "year": "2079 Bhadra",
-    "marks": "3x3",
-    "question": "Write short notes on: (Any Three)\n\na) Process and threads in a DS\n\nb) ORB and its interfaces\n\nc) Coordinator election process in central coordinator algorithm\n\nd) Monolithic and micro kernel\n\ne) MACH",
-    "unit": 4,
-    "chapter": [4.3, 4.2, 6.1, 2.5, 4.4]
-  },
-  {
-    "question_no": 9,
-    "year": "2078 Bhadra",
-    "marks": "2+6",
-    "question": "What are the Flat and Nested Transactions? Explain how the problems of 2PC protocols are solved by 3PC.",
-    "unit": 8,
-    "chapter": [8.1, 8.5]
-  },
-  {
-    "question_no": 9,
-    "year": "2076 Chaitra",
-    "marks": "3x3",
-    "question": "Write short notes on: (Any Three)\n\na. Three Phase Commit.\n\nb. CORBA component for RMI\n\nc. Physical Clock Synchronization: Cristain's Algorithm\n\nd. Two Phase commit protocol\n\ne. MACH",
-    "unit": 8,
-    "chapter": [8.5, 4.2, 4.1, 8.4, 4.4]
-  },
-  {
-    "question_no": 9,
-    "year": "2076 Ashwin",
-    "marks": 8,
-    "question": "What is fault tolerance? Explain different type of faults that may occur in a distributed system.",
-    "unit": 9,
-    "chapter": [9.1]
-  },
-  {
-    "question_no": 9,
-    "year": "2075 Chaitra",
-    "marks": "3+5",
-    "question": "What do you learn from Byzantine generals problem? Explain the basic principle of K-fault tolerant.",
-    "unit": 9,
-    "chapter": [9.4, 9.3]
-  },
-  {
-    "question_no": 9,
-    "year": "2075 Ashwin",
-    "marks": "2+6",
-    "question": "Write down the rule of two-version locking. Explain how Optimistic concurrency control mechanism works?",
-    "unit": 8,
-    "chapter": [8.2]
-  },
-  {
-    "question_no": 9,
-    "year": "2074 Ashwin",
-    "marks": "2+6",
-    "question": "What is K-fault tolerant system? Explain fault recovery techniques.",
-    "unit": 9,
-    "chapter": [9.3, 9.2]
-  },
-  {
-    "question_no": 9,
-    "year": "2073 Shrawan",
-    "marks": "2x3",
-    "question": "Write short notes on:\n\ni) Process Resilience\n\nii) Mach",
-    "unit": 9,
-    "chapter": [9.4, 4.4]
-  },
-  {
-    "question_no": 9,
-    "year": "2072 Chaitra",
-    "marks": "4+4",
-    "question": "Write short notes on:\n\ni) Distributed OS\n\nii) JINI",
-    "unit": 2,
-    "chapter": [2.4, 4.1]
-  },
-  {
-    "question_no": 9,
-    "year": "2071 Shrawan",
-    "marks": "4+4+4",
-    "question": "Write short notes on (Any Three)\n\na] Monolithic and Micro-Kernel\n\nb] Services provided by CORBA with the functions of Object Adapter\n\nc] Two Phase Distributed Commit\n\nd] Distributed Debugging\n\ne] RPC communication semantics",
-    "unit": 4,
-    "chapter": [2.5, 4.2, 8.4, 9.5, 4.3]
-  },
-  {
-    "question_no": 9,
-    "year": "2072 Kartik",
-    "marks": "4x3",
-    "question": "Write short notes on:\n\na) Christian's Algorithm\n\nb) Recovery approach in Distributed System\n\nc) CORBA services\n\nd) Monolithic and Microkernel",
-    "unit": 9,
-    "chapter": [9.1, 9.2, 4.2, 2.5]
-  },
-  {
-    "question_no": 9,
-    "year": "2071 Chaitra",
-    "marks": "3x4",
-    "question": "Write short notes on:\n\na) Heterogeneity in distributed system\n\nb) Rendezvous concept and implementation\n\nc) Flat versus nested locks\n\nd) Process Resilience",
-    "unit": 4,
-    "chapter": [1.2, 6.2, 8.1, 9.4]
-  },
-  {
-    "question_no": 9,
-    "year": "2070 Ashad",
-    "marks": "2+2+4",
-    "question": "What are the dependability requirements of fault tolerant system? What do you mean by K-fault tolerant? How to come agreement in faulty system? Explain with the approach of byzantine generals problem.",
-    "unit": 9,
-    "chapter": [9.1, 9.3, 9.5]
-  },
-  {
-    "question_no": 9,
-    "year": "2069 Chaitra",
-    "marks": "3+4",
-    "question": "What are the flat and nested transactions? Describe the methods for concurrency control in distributed system.",
-    "unit": 8,
-    "chapter": [8.1, 8.2]
-  }
+    {
+        "question_no": 9,
+        "year": "2081 Bhadra",
+        "marks": "3+5",
+        "question": "Define fault, error and failure. How do you detect arbitrary faults and recover it? Explain.",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.2
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2080 Bhadra",
+        "marks": "4+4",
+        "question": "Define faults, failures and errors. How to achieve agreement in faulty system over reliable channel? Explain.",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2080 Baishakh",
+        "marks": "3x4",
+        "question": "Write short notes on: (Any Three)\n\na) MACH\n\nb) Strongly Consistent CUT in DS\n\nc) Multithreading in DS\n\nd) CORBA services",
+        "unit": 4,
+        "chapter": [
+            4.4,
+            3.5,
+            4.3,
+            4.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2079 Bhadra",
+        "marks": "3x3",
+        "question": "Write short notes on: (Any Three)\n\na) Process and threads in a DS\n\nb) ORB and its interfaces\n\nc) Coordinator election process in central coordinator algorithm\n\nd) Monolithic and micro kernel\n\ne) MACH",
+        "unit": 4,
+        "chapter": [
+            4.3,
+            4.2,
+            6.1,
+            2.5,
+            4.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2078 Bhadra",
+        "marks": "2+6",
+        "question": "What are the Flat and Nested Transactions? Explain how the problems of 2PC protocols are solved by 3PC.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.5
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2076 Chaitra",
+        "marks": "3x3",
+        "question": "Write short notes on: (Any Three)\n\na. Three Phase Commit.\n\nb. CORBA component for RMI\n\nc. Physical Clock Synchronization: Cristain's Algorithm\n\nd. Two Phase commit protocol\n\ne. MACH",
+        "unit": 8,
+        "chapter": [
+            8.5,
+            4.2,
+            4.1,
+            8.4,
+            4.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2076 Ashwin",
+        "marks": 8,
+        "question": "What is fault tolerance? Explain different type of faults that may occur in a distributed system.",
+        "unit": 9,
+        "chapter": [
+            9.1
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2075 Chaitra",
+        "marks": "3+5",
+        "question": "What do you learn from Byzantine generals problem? Explain the basic principle of K-fault tolerant.",
+        "unit": 9,
+        "chapter": [
+            9.4,
+            9.3
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2075 Ashwin",
+        "marks": "2+6",
+        "question": "Write down the rule of two-version locking. Explain how Optimistic concurrency control mechanism works?",
+        "unit": 8,
+        "chapter": [
+            8.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2074 Ashwin",
+        "marks": "2+6",
+        "question": "What is K-fault tolerant system? Explain fault recovery techniques.",
+        "unit": 9,
+        "chapter": [
+            9.3,
+            9.2
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2073 Shrawan",
+        "marks": "2x3",
+        "question": "Write short notes on:\n\ni) Process Resilience\n\nii) Mach",
+        "unit": 9,
+        "chapter": [
+            9.4,
+            4.4
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2072 Chaitra",
+        "marks": "4+4",
+        "question": "Write short notes on:\n\ni) Distributed OS\n\nii) JINI",
+        "unit": 2,
+        "chapter": [
+            2.4,
+            4.1
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2071 Shrawan",
+        "marks": "4+4+4",
+        "question": "Write short notes on (Any Three)\n\na] Monolithic and Micro-Kernel\n\nb] Services provided by CORBA with the functions of Object Adapter\n\nc] Two Phase Distributed Commit\n\nd] Distributed Debugging\n\ne] RPC communication semantics",
+        "unit": 4,
+        "chapter": [
+            2.5,
+            4.2,
+            8.4,
+            9.5,
+            4.3
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2072 Kartik",
+        "marks": "4x3",
+        "question": "Write short notes on:\n\na) Christian's Algorithm\n\nb) Recovery approach in Distributed System\n\nc) CORBA services\n\nd) Monolithic and Microkernel",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.2,
+            4.2,
+            2.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2071 Chaitra",
+        "marks": "3x4",
+        "question": "Write short notes on:\n\na) Heterogeneity in distributed system\n\nb) Rendezvous concept and implementation\n\nc) Flat versus nested locks\n\nd) Process Resilience",
+        "unit": 4,
+        "chapter": [
+            1.2,
+            6.2,
+            8.1,
+            9.4
+        ],
+        "Type": "Regular"
+    },
+    {
+        "question_no": 9,
+        "year": "2070 Ashad",
+        "marks": "2+2+4",
+        "question": "What are the dependability requirements of fault tolerant system? What do you mean by K-fault tolerant? How to come agreement in faulty system? Explain with the approach of byzantine generals problem.",
+        "unit": 9,
+        "chapter": [
+            9.1,
+            9.3,
+            9.5
+        ],
+        "Type": "Back"
+    },
+    {
+        "question_no": 9,
+        "year": "2069 Chaitra",
+        "marks": "3+4",
+        "question": "What are the flat and nested transactions? Describe the methods for concurrency control in distributed system.",
+        "unit": 8,
+        "chapter": [
+            8.1,
+            8.2
+        ],
+        "Type": "Regular"
+    }
 ]

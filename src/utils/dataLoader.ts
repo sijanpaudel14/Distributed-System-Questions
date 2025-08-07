@@ -56,6 +56,7 @@ export function filterQuestions(
     searchTerm: string
     selectedYear: string
     marksRange: string
+    questionType: string
     selectedUnit: number | null
     selectedChapter: number | null
     selectedSubchapter: string | null
@@ -74,6 +75,11 @@ export function filterQuestions(
 
     // Year filter
     if (filters.selectedYear && question.year !== filters.selectedYear) {
+      return false
+    }
+
+    // Question type filter
+    if (filters.questionType && question.Type !== filters.questionType) {
       return false
     }
 

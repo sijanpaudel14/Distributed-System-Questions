@@ -24,6 +24,7 @@ export default function Home() {
     searchTerm: '',
     selectedYear: '',
     marksRange: '',
+    questionType: '',
     selectedUnit: null,
     selectedChapter: null,
     selectedSubchapter: null,
@@ -111,11 +112,16 @@ export default function Home() {
     setFilters((prev) => ({ ...prev, marksRange }))
   }
 
+  const handleQuestionTypeChange = (questionType: string) => {
+    setFilters((prev) => ({ ...prev, questionType }))
+  }
+
   const handleReset = () => {
     setFilters({
       searchTerm: '',
       selectedYear: '',
       marksRange: '',
+      questionType: '',
       selectedUnit: null,
       selectedChapter: null,
       selectedSubchapter: null,
@@ -191,10 +197,12 @@ export default function Home() {
             searchTerm={filters.searchTerm}
             selectedYear={filters.selectedYear}
             marksRange={filters.marksRange}
+            questionType={filters.questionType}
             availableYears={availableYears}
             onSearchChange={handleSearchChange}
             onYearChange={handleYearChange}
             onMarksRangeChange={handleMarksRangeChange}
+            onQuestionTypeChange={handleQuestionTypeChange}
             onReset={handleReset}
           />
 
