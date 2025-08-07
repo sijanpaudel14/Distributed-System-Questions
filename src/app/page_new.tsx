@@ -12,6 +12,7 @@ import Sidebar from '@/components/Sidebar'
 import SearchFilters from '@/components/SearchFilters'
 import QuestionsList from '@/components/QuestionsList'
 import MobileNavigation from '@/components/MobileNavigation'
+import ThemeToggle from '@/components/ThemeToggle'
 
 export default function Home() {
   const [questions, setQuestions] = useState<Question[]>([])
@@ -124,10 +125,12 @@ export default function Home() {
 
   if (loading) {
     return (
-      <div className='min-h-screen bg-gray-50 flex items-center justify-center'>
+      <div className='min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center'>
         <div className='text-center'>
           <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4'></div>
-          <p className='text-gray-600'>Loading questions...</p>
+          <p className='text-gray-600 dark:text-gray-400'>
+            Loading questions...
+          </p>
         </div>
       </div>
     )
@@ -135,13 +138,13 @@ export default function Home() {
 
   if (error) {
     return (
-      <div className='min-h-screen bg-gray-50 flex items-center justify-center'>
+      <div className='min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center'>
         <div className='text-center'>
           <div className='text-red-500 text-6xl mb-4'>⚠️</div>
-          <h2 className='text-xl font-semibold text-gray-900 mb-2'>
+          <h2 className='text-xl font-semibold text-gray-900 dark:text-gray-100 mb-2'>
             Error Loading Data
           </h2>
-          <p className='text-gray-600 mb-4'>{error}</p>
+          <p className='text-gray-600 dark:text-gray-400 mb-4'>{error}</p>
           <button
             onClick={() => window.location.reload()}
             className='bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700'
@@ -156,7 +159,10 @@ export default function Home() {
   const availableYears = getUniqueYears(questions)
 
   return (
-    <div className='min-h-screen bg-gray-50'>
+    <div className='min-h-screen bg-gray-50 dark:bg-gray-900'>
+      {/* Theme Toggle Button */}
+      <ThemeToggle />
+
       {/* Mobile Navigation */}
       <MobileNavigation
         syllabus={syllabus}
