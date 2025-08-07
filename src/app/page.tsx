@@ -56,9 +56,9 @@ export default function Home() {
 
   // Filter questions when filters change
   useEffect(() => {
-    const filtered = filterQuestions(questions, filters)
+    const filtered = filterQuestions(questions, filters, syllabus)
     setFilteredQuestions(filtered)
-  }, [questions, filters])
+  }, [questions, filters, syllabus])
 
   const handleUnitSelect = (unit: number) => {
     setFilters((prev) => ({

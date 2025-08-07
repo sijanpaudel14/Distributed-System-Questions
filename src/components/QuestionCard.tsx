@@ -65,17 +65,12 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
             </p>
           </div>
 
-          {/* Unit info */}
-          {question.unit && (
+          {/* Chapter info */}
+          {question.chapter && question.chapter.length > 0 && (
             <div className='flex items-center gap-2 text-xs flex-wrap'>
-              <span className='px-2 py-1 bg-blue-100 text-blue-700 rounded-full font-medium'>
-                Unit {question.unit}
+              <span className='px-2 py-1 bg-green-100 text-green-700 rounded-full font-medium'>
+                Ch. {question.chapter.join(', ')}
               </span>
-              {question.chapter && question.chapter.length > 0 && (
-                <span className='px-2 py-1 bg-green-100 text-green-700 rounded-full font-medium'>
-                  Ch. {question.chapter.join(', ')}
-                </span>
-              )}
             </div>
           )}
         </div>

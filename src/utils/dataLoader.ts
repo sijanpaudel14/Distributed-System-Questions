@@ -1,4 +1,36 @@
-import { Question, Syllabus } from '@/types'
+import { Question, Syllabus, Unit } from '@/types'
+
+// Helper function to get which unit a chapter belongs to
+function getUnitForChapter(
+  chapter: number | string,
+  syllabus?: Unit[]
+): number | null {
+  if (!syllabus) return null
+
+  const chapterNum = typeof chapter === 'string' ? parseFloat(chapter) : chapter
+  if (isNaN(chapterNum)) return null
+
+  // Find which unit this chapter belongs to
+  for (const unit of syllabus) {
+    if (unit.chapters) {
+      for (const ch of unit.chapters) {
+        if (ch.chapter === chapterNum) {
+          return unit.unit
+        }
+        // Also check if this is a subchapter (like 1.1.1 belongs to chapter 1.1)
+        if (typeof chapter === 'string' && ch.chapter) {
+          const chapterStr = ch.chapter.toString()
+          if (chapter.startsWith(chapterStr + '.')) {
+            return unit.unit
+          }
+        }
+      }
+    }
+  }
+
+  // If not found in syllabus, extract unit from chapter number (e.g., 3.1 belongs to unit 3)
+  return Math.floor(chapterNum)
+}
 
 export async function loadQuestions(): Promise<Question[]> {
   try {
@@ -60,7 +92,8 @@ export function filterQuestions(
     selectedUnit: number | null
     selectedChapter: number | null
     selectedSubchapter: string | null
-  }
+  },
+  syllabus?: Unit[]
 ): Question[] {
   return questions.filter((question) => {
     // Search term filter
@@ -83,12 +116,29 @@ export function filterQuestions(
       return false
     }
 
-    // Unit filter
-    if (
-      filters.selectedUnit !== null &&
-      question.unit !== filters.selectedUnit
-    ) {
-      return false
+    // Unit filter - check if question belongs to selected unit
+    if (filters.selectedUnit !== null) {
+      let belongsToUnit = false
+
+      // Check if the question's assigned unit matches
+      if (question.unit === filters.selectedUnit) {
+        belongsToUnit = true
+      }
+
+      // Also check if any of the question's chapters belong to the selected unit
+      if (!belongsToUnit && question.chapter) {
+        for (const chapter of question.chapter) {
+          const chapterUnit = getUnitForChapter(chapter, syllabus)
+          if (chapterUnit === filters.selectedUnit) {
+            belongsToUnit = true
+            break
+          }
+        }
+      }
+
+      if (!belongsToUnit) {
+        return false
+      }
     }
 
     // Chapter filter - only apply if no subchapter is selected
@@ -167,9 +217,27 @@ export function getUniqueYears(questions: Question[]): string[] {
 
 export function getQuestionsByUnit(
   questions: Question[],
-  unit: number
+  unit: number,
+  syllabus?: Unit[]
 ): Question[] {
-  return questions.filter((q) => q.unit === unit)
+  return questions.filter((q) => {
+    // Check if the question's assigned unit matches
+    if (q.unit === unit) {
+      return true
+    }
+
+    // Also check if any of the question's chapters belong to the unit
+    if (q.chapter) {
+      for (const chapter of q.chapter) {
+        const chapterUnit = getUnitForChapter(chapter, syllabus)
+        if (chapterUnit === unit) {
+          return true
+        }
+      }
+    }
+
+    return false
+  })
 }
 
 export function getQuestionsByChapter(
