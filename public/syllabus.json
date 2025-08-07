@@ -4,50 +4,65 @@
       "unit": 1,
       "title": "Introduction to Distributed Systems",
       "chapters": [
-        {"chapter": 1.1, "title": "Introduction to Distributed Systems"},
-        {"chapter": 1.2, "title": "Examples of Distributed Systems"},
-        {"chapter": 1.3, "title": "Main Characteristics"},
-        {"chapter": 1.4, "title": "Advantages and Disadvantages of Distributed Systems"},
-        {"chapter": 1.5, "title": "Design Goals"},
-        {"chapter": 1.6, "title": "Main Problems"},
-        {"chapter": 1.7, "title": "Models of Distributed Systems"}
+        { "chapter": 1.1, "title": "Introduction to Distributed Systems" },
+        { "chapter": 1.2, "title": "Examples of Distributed Systems" },
+        { "chapter": 1.3, "title": "Main Characteristics" },
+        {
+          "chapter": 1.4,
+          "title": "Advantages and Disadvantages of Distributed Systems"
+        },
+        { "chapter": 1.5, "title": "Design Goals" },
+        { "chapter": 1.6, "title": "Main Problems" },
+        { "chapter": 1.7, "title": "Models of Distributed Systems" }
       ]
     },
     {
       "unit": 2,
-      "title": "Distributed Operating Systems",
+      "title": "Distributed Objects and File System",
       "chapters": [
-        {"chapter": 2.1, "title": "Distributed OS Overview"},
-        {"chapter": 2.2, "title": "Network OS vs Distributed OS"},
-        {"chapter": 2.3, "title": "Monolithic and Microkernel Architectures"},
-        {"chapter": 2.4, "title": "Process and Thread Management"},
-        {"chapter": 2.5, "title": "Communication in Distributed OS"},
-        {"chapter": 2.6, "title": "Synchronization Mechanisms"}
+        { "chapter": 2.1, "title": "Introduction" },
+        {
+          "chapter": 2.2,
+          "title": "Communication between Distributed Objects"
+        },
+        { "chapter": 2.3, "title": "Remote Procedure Call" },
+        { "chapter": 2.4, "title": "Events and Notifications" },
+        { "chapter": 2.5, "title": "Java RMI Case Study" },
+        { "chapter": 2.6, "title": "Introduction to DFS" },
+        { "chapter": 2.7, "title": "File Service Architecture" },
+        { "chapter": 2.8, "title": "Sun Network File System" },
+        { "chapter": 2.9, "title": "Introduction to Name Services" },
+        { "chapter": 2.1, "title": "Name Services and DNS" },
+        { "chapter": 2.11, "title": "Directory and Discovery Services" },
+        {
+          "chapter": 2.12,
+          "title": "Comparison of Different Distributed File Systems"
+        }
       ]
     },
     {
       "unit": 3,
-      "title": "Distributed File Systems and Naming",
+      "title": "Operating System Support",
       "chapters": [
-        {"chapter": 3.1, "title": "Distributed File System Concepts"},
-        {"chapter": 3.2, "title": "Stateful vs Stateless File Systems"},
-        {"chapter": 3.3, "title": "File Service Architecture"},
-        {"chapter": 3.4, "title": "DNS and Naming Services"},
-        {"chapter": 3.5, "title": "RMI and Distributed Objects"}
+        { "chapter": 3.1, "title": "The operating system layer" },
+        { "chapter": 3.2, "title": "Protection" },
+        { "chapter": 3.3, "title": "Process and threads" },
+        { "chapter": 3.4, "title": "Communication and invocation" },
+        { "chapter": 3.5, "title": "Operating system architecture" }
       ]
     },
     {
       "unit": 4,
       "title": "Middleware and Communication",
       "chapters": [
-        {"chapter": 4.1, "title": "Middleware Overview"},
-        {"chapter": 4.2, "title": "CORBA Architecture and Services"},
-        {"chapter": 4.3, "title": "RPC and RMI"},
-        {"chapter": 4.4, "title": "ORB and Interfaces"},
-        {"chapter": 4.5, "title": "Object Adapters and Invocation"}
+        { "chapter": 4.1, "title": "Middleware Overview" },
+        { "chapter": 4.2, "title": "CORBA Architecture and Services" },
+        { "chapter": 4.3, "title": "RPC and RMI" },
+        { "chapter": 4.4, "title": "ORB and Interfaces" },
+        { "chapter": 4.5, "title": "Object Adapters and Invocation" }
       ]
     },
-     {
+    {
       "unit": 5,
       "title": "Synchronization and Clock",
       "chapters": [
@@ -55,10 +70,13 @@
           "chapter": 5.1,
           "title": "Logical Clocks",
           "subchapters": [
-            {"subchapter": "5.1.1", "title": "Lamport Logical Clock"},
-            {"subchapter": "5.1.2", "title": "Vector Clocks"},
-            {"subchapter": "5.1.3", "title": "Problems with Lamport Clocks"},
-            {"subchapter": "5.1.4", "title": "Causal Ordering Using Vector Clocks"}
+            { "subchapter": "5.1.1", "title": "Lamport Logical Clock" },
+            { "subchapter": "5.1.2", "title": "Vector Clocks" },
+            { "subchapter": "5.1.3", "title": "Problems with Lamport Clocks" },
+            {
+              "subchapter": "5.1.4",
+              "title": "Causal Ordering Using Vector Clocks"
+            }
           ]
         },
         {
@@ -79,42 +97,45 @@
       "unit": 6,
       "title": "Mutual Exclusion and Election Algorithms",
       "chapters": [
-        {"chapter": 6.1, "title": "Mutual Exclusion Algorithms"},
-        {"chapter": 6.2, "title": "Token and Non-token Based Algorithms"},
-        {"chapter": 6.3, "title": "Election Algorithms: Ring, Bully, etc."},
-        {"chapter": 6.4, "title": "Consensus in Distributed Systems"}
+        { "chapter": 6.1, "title": "Mutual Exclusion Algorithms" },
+        { "chapter": 6.2, "title": "Token and Non-token Based Algorithms" },
+        { "chapter": 6.3, "title": "Election Algorithms: Ring, Bully, etc." },
+        { "chapter": 6.4, "title": "Consensus in Distributed Systems" }
       ]
     },
     {
       "unit": 7,
       "title": "Replication and Fault Tolerance",
       "chapters": [
-        {"chapter": 7.1, "title": "Replication Models: Active and Passive"},
-        {"chapter": 7.2, "title": "Consistency Models"},
-        {"chapter": 7.3, "title": "Fault Tolerance and Byzantine Faults"},
-        {"chapter": 7.4, "title": "Reliable Communication"}
+        { "chapter": 7.1, "title": "Replication Models: Active and Passive" },
+        { "chapter": 7.2, "title": "Consistency Models" },
+        { "chapter": 7.3, "title": "Fault Tolerance and Byzantine Faults" },
+        { "chapter": 7.4, "title": "Reliable Communication" }
       ]
     },
     {
       "unit": 8,
       "title": "Distributed Transactions and Concurrency Control",
       "chapters": [
-        {"chapter": 8.1, "title": "Transactions: Flat and Nested"},
-        {"chapter": 8.2, "title": "Concurrency Control Mechanisms"},
-        {"chapter": 8.3, "title": "Two-Phase and Three-Phase Commit Protocols"},
-        {"chapter": 8.4, "title": "Deadlock Detection and Avoidance"},
-        {"chapter": 8.5, "title": "Recovery Techniques"}
+        { "chapter": 8.1, "title": "Transactions: Flat and Nested" },
+        { "chapter": 8.2, "title": "Concurrency Control Mechanisms" },
+        {
+          "chapter": 8.3,
+          "title": "Two-Phase and Three-Phase Commit Protocols"
+        },
+        { "chapter": 8.4, "title": "Deadlock Detection and Avoidance" },
+        { "chapter": 8.5, "title": "Recovery Techniques" }
       ]
     },
     {
       "unit": 9,
       "title": "Distributed System Recovery and Debugging",
       "chapters": [
-        {"chapter": 9.1, "title": "Faults, Failures, and Errors"},
-        {"chapter": 9.2, "title": "Checkpointing and Recovery"},
-        {"chapter": 9.3, "title": "Reliable Group Communication"},
-        {"chapter": 9.4, "title": "Process Resilience"},
-        {"chapter": 9.5, "title": "Distributed Debugging and Monitoring"}
+        { "chapter": 9.1, "title": "Faults, Failures, and Errors" },
+        { "chapter": 9.2, "title": "Checkpointing and Recovery" },
+        { "chapter": 9.3, "title": "Reliable Group Communication" },
+        { "chapter": 9.4, "title": "Process Resilience" },
+        { "chapter": 9.5, "title": "Distributed Debugging and Monitoring" }
       ]
     }
   ]

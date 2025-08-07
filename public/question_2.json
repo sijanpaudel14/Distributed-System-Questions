@@ -1,221 +1,164 @@
 [
-    {
-        "question_no": 2,
-        "year": "2081 Bhadra",
-        "marks": "3+5",
-        "question": "Define local and remote method invocation in distributed system. Explain the functional steps taken by modern RPC with its communication semantics.",
-        "unit": 2,
-        "chapter": [
-            2.2,
-            2.3
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2081 Baishakh",
-        "marks": "2+8",
-        "question": "What do you mean by Request Replay Protocol? Discuss how dynamic RMI works.",
-        "unit": 2,
-        "chapter": [
-            2.3,
-            2.5
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2080 Bhadra",
-        "marks": "2+6",
-        "question": "Define distributed object and IDL. How RPC operation is performed in client server communication in distributed system.",
-        "unit": 2,
-        "chapter": [
-            2.1,
-            2.3
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2080 Baishakh",
-        "marks": "2+6",
-        "question": "Explain the role of middleware in Distributed System. Explain the operation of dynamic RMI.",
-        "unit": 4,
-        "chapter": [
-            4.2,
-            4.4
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2079 Bhadra",
-        "marks": "2+3+2",
-        "question": "What is recursive and iterative query? Describe working mechanism of DNS with suitable example. Mention the role of distributed file system.",
-        "unit": 2,
-        "chapter": [
-            2.9,
-            2.1,
-            2.6
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2078 Bhadra",
-        "marks": "4+4",
-        "question": "Elaborate the differences between RMI and RPC. Describe the File Service Architecture of DFS.",
-        "unit": 2,
-        "chapter": [
-            2.3,
-            2.7
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2076 Chaitra",
-        "marks": "3+5",
-        "question": "Discuss the functionalities provided by RMI software. How is the event and notification system implemented in distributed object based communication?",
-        "unit": 2,
-        "chapter": [
-            2.5,
-            2.4
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2076 Ashwin",
-        "marks": 8,
-        "question": "Define distributed objects and explain communication between distributed system.",
-        "unit": 2,
-        "chapter": [
-            2.1,
-            2.2
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2075 Chaitra",
-        "marks": "3+5",
-        "question": "What do you mean by RMI software? Comparatively discuss RPC with RMI.",
-        "unit": 2,
-        "chapter": [
-            2.5,
-            2.3
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2075 Ashwin",
-        "marks": "2+6",
-        "question": "Why naming is necessary in distributed system? Explain Sun Network File System architecture with its features.",
-        "unit": 2,
-        "chapter": [
-            2.9,
-            2.8
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2074 Ashwin",
-        "marks": "2+6",
-        "question": "Define distributed object and IDL. Compare RPC and RMI architecture.",
-        "unit": 2,
-        "chapter": [
-            2.1,
-            2.3,
-            2.5
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2073 Shrawan",
-        "marks": "4+4",
-        "question": "What are the requirements of Distributed File System? Describe file service architecture for Distributed File System.",
-        "unit": 2,
-        "chapter": [
-            2.6,
-            2.7
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2072 Chaitra",
-        "marks": "2+6",
-        "question": "Discuss the importance of Distributed File System (DFS). Describe the operations of SUNNFS with its properties.",
-        "unit": 2,
-        "chapter": [
-            2.6,
-            2.8
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2071 Shrawan",
-        "marks": "3+5",
-        "question": "What is the importance of IDL in RMI? Write the operation of static RMI.",
-        "unit": 2,
-        "chapter": [
-            2.5
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2072 Kartik",
-        "marks": "4+6",
-        "question": "Mention the role of IDL and middleware in Distributed System. Explain RMI approach in the distributed object based system.",
-        "unit": 4,
-        "chapter": [
-            4.2,
-            2.5
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2071 Chaitra",
-        "marks": "2+6",
-        "question": "Define DFS. How RMI perform communication between distributed objects? Explain.",
-        "unit": 2,
-        "chapter": [
-            2.6,
-            2.5,
-            2.2
-        ],
-        "Type": "Regular"
-    },
-    {
-        "question_no": 2,
-        "year": "2070 Ashad",
-        "marks": "4+4",
-        "question": "Explain the ways how distributed objects communicate with each other. Differentiate between RPC and RMI.",
-        "unit": 2,
-        "chapter": [
-            2.2,
-            2.3,
-            2.5
-        ],
-        "Type": "Back"
-    },
-    {
-        "question_no": 2,
-        "year": "2069 Chaitra",
-        "marks": "3+5",
-        "question": "How do you convince that middleware plays the important role in Distributed System? Explain the operation of RPC in client server communication in Distributed System.",
-        "unit": 4,
-        "chapter": [
-            4.2,
-            2.3
-        ],
-        "Type": "Regular"
-    }
+  {
+    "question_no": 2,
+    "year": "2081 Bhadra",
+    "marks": "3+5",
+    "question": "Define local and remote method invocation in distributed system. Explain the functional steps taken by modern RPC with its communication semantics.",
+    "unit": 2,
+    "chapter": [2.2, 2.3],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2081 Baishakh",
+    "marks": "2+8",
+    "question": "What do you mean by Request Replay Protocol? Discuss how dynamic RMI works.",
+    "unit": 2,
+    "chapter": [2.3, 2.5],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2080 Bhadra",
+    "marks": "2+6",
+    "question": "Define distributed object and IDL. How RPC operation is performed in client server communication in distributed system.",
+    "unit": 2,
+    "chapter": [2.1, 2.3],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2080 Baishakh",
+    "marks": "2+6",
+    "question": "Explain the role of middleware in Distributed System. Explain the operation of dynamic RMI.",
+    "unit": 4,
+    "chapter": [4.2, 4.4],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2079 Bhadra",
+    "marks": "2+3+2",
+    "question": "What is recursive and iterative query? Describe working mechanism of DNS with suitable example. Mention the role of distributed file system.",
+    "unit": 2,
+    "chapter": [2.1, 2.6, 2.1],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2078 Bhadra",
+    "marks": "4+4",
+    "question": "Elaborate the differences between RMI and RPC. Describe the File Service Architecture of DFS.",
+    "unit": 2,
+    "chapter": [2.5, 2.7],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2076 Chaitra",
+    "marks": "3+5",
+    "question": "Discuss the functionalities provided by RMI software. How is the event and notification system implemented in distributed object based communication?",
+    "unit": 2,
+    "chapter": [2.5, 2.4],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2076 Ashwin",
+    "marks": "8",
+    "question": "Define distributed objects and explain communication between distributed system.",
+    "unit": 2,
+    "chapter": [2.1, 2.2],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2075 Chaitra",
+    "marks": "3+5",
+    "question": "What do you mean by RMI software? Comparatively discuss RPC with RMI.",
+    "unit": 2,
+    "chapter": [2.5, 2.3],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2075 Ashwin",
+    "marks": "2+6",
+    "question": "Why naming is necessary in distributed system? Explain Sun Network File System architecture with its features.",
+    "unit": 2,
+    "chapter": [2.9, 2.8],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2074 Ashwin",
+    "marks": "2+6",
+    "question": "Define distributed object and IDL. Compare RPC and RMI architecture.",
+    "unit": 2,
+    "chapter": [2.1, 2.3, 2.5],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2073 Shrawan",
+    "marks": "4+4",
+    "question": "What are the requirements of Distributed File System? Describe file service architecture for Distributed File System.",
+    "unit": 2,
+    "chapter": [2.6, 2.7],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2072 Chaitra",
+    "marks": "2+6",
+    "question": "Discuss the importance of Distributed File System (DFS). Describe the operations of SUNNFS with its properties.",
+    "unit": 2,
+    "chapter": [2.6, 2.8],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2071 Shrawan",
+    "marks": "3+5",
+    "question": "What is the importance of IDL in RMI? Write the operation of static RMI.",
+    "unit": 2,
+    "chapter": [2.5],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2072 Kartik",
+    "marks": "4+6",
+    "question": "Mention the role of IDL and middleware in Distributed System. Explain RMI approach in the distributed object based system.",
+    "unit": 4,
+    "chapter": [4.2, 2.5],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2071 Chaitra",
+    "marks": "2+6",
+    "question": "Define DFS. How RMI perform communication between distributed objects? Explain.",
+    "unit": 2,
+    "chapter": [2.6, 2.5, 2.2],
+    "Type": "Regular"
+  },
+  {
+    "question_no": 2,
+    "year": "2070 Ashad",
+    "marks": "4+4",
+    "question": "Explain the ways how distributed objects communicate with each other. Differentiate between RPC and RMI.",
+    "unit": 2,
+    "chapter": [2.2, 2.3, 2.5],
+    "Type": "Back"
+  },
+  {
+    "question_no": 2,
+    "year": "2069 Chaitra",
+    "marks": "3+5",
+    "question": "How do you convince that middleware plays the important role in Distributed System? Explain the operation of RPC in client server communication in Distributed System.",
+    "unit": 4,
+    "chapter": [4.2, 2.3],
+    "Type": "Regular"
+  }
 ]
