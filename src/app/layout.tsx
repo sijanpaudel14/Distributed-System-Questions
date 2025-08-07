@@ -18,6 +18,12 @@ export const metadata: Metadata = {
     'Browse and search exam questions for Distributed Systems course organized by units, chapters, and subchapters',
 }
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{

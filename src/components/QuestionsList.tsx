@@ -44,14 +44,14 @@ const QuestionsList: React.FC<QuestionsListProps> = ({
 
   if (questions.length === 0) {
     return (
-      <div className='flex-1 bg-gray-50 p-8'>
+      <div className='flex-1 bg-gray-50 p-4 sm:p-8'>
         <div className='max-w-4xl mx-auto'>
-          <div className='text-center py-12'>
-            <div className='text-gray-400 text-6xl mb-4'>📚</div>
-            <h3 className='text-lg font-medium text-gray-900 mb-2'>
+          <div className='text-center py-8 sm:py-12'>
+            <div className='text-gray-400 text-4xl sm:text-6xl mb-4'>📚</div>
+            <h3 className='text-base sm:text-lg font-medium text-gray-900 mb-2'>
               No questions found
             </h3>
-            <p className='text-gray-500'>
+            <p className='text-gray-500 text-sm sm:text-base'>
               {searchTerm
                 ? `No questions match your search for "${searchTerm}"`
                 : 'No questions available for the selected criteria'}
@@ -64,13 +64,13 @@ const QuestionsList: React.FC<QuestionsListProps> = ({
 
   return (
     <div className='flex-1 bg-gray-50 overflow-y-auto'>
-      <div className='max-w-5xl mx-auto p-6'>
+      <div className='max-w-5xl mx-auto p-3 sm:p-6'>
         {/* Header */}
-        <div className='mb-6 text-center'>
-          <h1 className='text-2xl font-bold text-gray-900 mb-2'>
+        <div className='mb-4 sm:mb-6 text-center'>
+          <h1 className='text-lg sm:text-2xl font-bold text-gray-900 mb-2 leading-tight'>
             {getTitle()}
           </h1>
-          <p className='text-gray-600 text-sm bg-white px-4 py-2 rounded-full border border-gray-200 inline-block'>
+          <p className='text-gray-600 text-xs sm:text-sm bg-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-gray-200 inline-block'>
             {getSubtitle()}
           </p>
         </div>
@@ -89,8 +89,8 @@ const QuestionsList: React.FC<QuestionsListProps> = ({
 
         {/* Load more placeholder (can be implemented later) */}
         {questions.length > 10 && (
-          <div className='mt-8 text-center'>
-            <p className='text-gray-500 text-sm'>
+          <div className='mt-6 sm:mt-8 text-center'>
+            <p className='text-gray-500 text-xs sm:text-sm'>
               Showing {questions.length} questions
             </p>
           </div>

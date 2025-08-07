@@ -59,14 +59,14 @@ const Sidebar: React.FC<SidebarProps> = ({
   return (
     <div
       className={`bg-white border-r border-gray-200 h-screen overflow-y-auto transition-all duration-300 ${
-        isCollapsed ? 'w-16' : 'w-80'
+        isCollapsed ? 'w-16' : 'w-full lg:w-80'
       }`}
     >
-      {/* Header with Collapse/Expand Button */}
-      <div className='p-4 border-b border-gray-200'>
+      {/* Header with Collapse/Expand Button - Hidden on mobile */}
+      <div className='p-3 sm:p-4 border-b border-gray-200 hidden lg:block'>
         <button
           onClick={() => setIsCollapsed(!isCollapsed)}
-          className='group relative cursor-pointer w-full flex items-center justify-center p-3 rounded-xl bg-gray-50 hover:bg-gray-100 border border-gray-200 hover:border-gray-300 transition-all duration-200 active:scale-95'
+          className='group relative cursor-pointer w-full flex items-center justify-center p-2 sm:p-3 rounded-xl bg-gray-50 hover:bg-gray-100 border border-gray-200 hover:border-gray-300 transition-all duration-200 active:scale-95'
           title={isCollapsed ? 'Expand Sidebar' : 'Collapse Sidebar'}
         >
           {isCollapsed ? (
@@ -110,27 +110,39 @@ const Sidebar: React.FC<SidebarProps> = ({
         </button>
       </div>
 
+      {/* Mobile header - only visible on mobile when not collapsed */}
+      <div className='p-3 sm:p-4 border-b border-gray-200 block lg:hidden'>
+        <div className='text-center'>
+          <h2 className='text-lg font-bold text-gray-900 mb-2'>
+            Course Structure
+          </h2>
+          <div className='w-12 h-0.5 bg-blue-500 rounded-full mx-auto'></div>
+        </div>
+      </div>
+
+      {/* Main content */}
       {!isCollapsed && (
-        <div className='p-6'>
-          <div className='mb-6 text-center'>
-            <h2 className='text-xl font-bold text-gray-900 mb-2'>
+        <div className='p-3 sm:p-6 lg:p-6'>
+          {/* Desktop header - only visible on desktop */}
+          <div className='mb-4 sm:mb-6 text-center hidden lg:block'>
+            <h2 className='text-lg sm:text-xl font-bold text-gray-900 mb-2'>
               Course Structure
             </h2>
-            <div className='w-16 h-0.5 bg-blue-500 rounded-full mx-auto'></div>
+            <div className='w-12 sm:w-16 h-0.5 bg-blue-500 rounded-full mx-auto'></div>
           </div>
 
           {/* View All Button */}
           <button
             onClick={onViewAll}
-            className={`w-full text-left p-4 rounded-lg mb-6 transition-all duration-200 font-medium ${
+            className={`w-full text-left p-3 sm:p-4 rounded-lg mb-4 sm:mb-6 transition-all duration-200 font-medium ${
               selectedUnit === null
                 ? 'bg-blue-500 text-white shadow-sm'
                 : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border border-gray-200'
             }`}
           >
             <div className='flex items-center'>
-              <span className='text-lg mr-3'>📚</span>
-              <span>All Questions</span>
+              <span className='text-base sm:text-lg mr-2 sm:mr-3'>📚</span>
+              <span className='text-sm sm:text-base'>All Questions</span>
             </div>
           </button>
 
@@ -139,31 +151,38 @@ const Sidebar: React.FC<SidebarProps> = ({
             <div key={unit.unit} className='mb-3'>
               {/* Unit Header */}
               <div
-                className={`flex items-center justify-between p-4 rounded-lg cursor-pointer transition-all duration-200 ${
+                className={`flex items-center justify-between p-3 sm:p-4 rounded-lg cursor-pointer transition-all duration-200 ${
                   selectedUnit === unit.unit && selectedChapter === null
                     ? 'bg-blue-500 text-white shadow-sm'
                     : 'bg-gray-50 hover:bg-gray-100 text-gray-700 border border-gray-200'
                 }`}
-                onClick={() => {
-                  onUnitSelect(unit.unit)
-                  toggleUnit(unit.unit)
-                }}
               >
-                <div className='flex items-center'>
-                  <span className='text-sm mr-3'>
+                <div
+                  className='flex items-center flex-1'
+                  onClick={() => onUnitSelect(unit.unit)}
+                >
+                  <span className='text-xs sm:text-sm mr-2 sm:mr-3'>
                     {selectedUnit === unit.unit && selectedChapter === null
                       ? '●'
                       : '○'}
                   </span>
-                  <span className='font-medium text-sm'>
+                  <span className='font-medium text-xs sm:text-sm'>
                     Unit {unit.unit}: {unit.title}
                   </span>
                 </div>
-                {expandedUnits.has(unit.unit) ? (
-                  <ChevronDownIcon className='h-4 w-4' />
-                ) : (
-                  <ChevronRightIcon className='h-4 w-4' />
-                )}
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation()
+                    toggleUnit(unit.unit)
+                  }}
+                  className='p-1 hover:bg-gray-200 hover:bg-opacity-50 rounded transition-colors duration-200'
+                >
+                  {expandedUnits.has(unit.unit) ? (
+                    <ChevronDownIcon className='h-3 w-3 sm:h-4 sm:w-4' />
+                  ) : (
+                    <ChevronRightIcon className='h-3 w-3 sm:h-4 sm:w-4' />
+                  )}
+                </button>
               </div>
 
               {/* Chapters */}
@@ -180,14 +199,13 @@ const Sidebar: React.FC<SidebarProps> = ({
                             ? 'bg-green-500 text-white shadow-sm'
                             : 'bg-gray-50 hover:bg-gray-100 text-gray-600 border border-gray-100'
                         }`}
-                        onClick={() => {
-                          onChapterSelect(unit.unit, chapter.chapter)
-                          if (chapter.subchapters) {
-                            toggleChapter(unit.unit, chapter.chapter)
-                          }
-                        }}
                       >
-                        <div className='flex items-center'>
+                        <div
+                          className='flex items-center flex-1'
+                          onClick={() =>
+                            onChapterSelect(unit.unit, chapter.chapter)
+                          }
+                        >
                           <span className='text-xs mr-2'>
                             {selectedUnit === unit.unit &&
                             selectedChapter === chapter.chapter &&
@@ -199,14 +217,23 @@ const Sidebar: React.FC<SidebarProps> = ({
                             {chapter.chapter}: {chapter.title}
                           </span>
                         </div>
-                        {chapter.subchapters &&
-                          (expandedChapters.has(
-                            `${unit.unit}-${chapter.chapter}`
-                          ) ? (
-                            <ChevronDownIcon className='h-3 w-3' />
-                          ) : (
-                            <ChevronRightIcon className='h-3 w-3' />
-                          ))}
+                        {chapter.subchapters && (
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation()
+                              toggleChapter(unit.unit, chapter.chapter)
+                            }}
+                            className='p-1 hover:bg-gray-200 hover:bg-opacity-50 rounded transition-colors duration-200'
+                          >
+                            {expandedChapters.has(
+                              `${unit.unit}-${chapter.chapter}`
+                            ) ? (
+                              <ChevronDownIcon className='h-3 w-3' />
+                            ) : (
+                              <ChevronRightIcon className='h-3 w-3' />
+                            )}
+                          </button>
+                        )}
                       </div>
 
                       {/* Subchapters */}

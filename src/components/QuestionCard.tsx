@@ -46,15 +46,15 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
   }
 
   return (
-    <div className='bg-white rounded-lg border border-gray-200 p-5 hover:shadow-md hover:border-gray-300 transition-all duration-200'>
+    <div className='bg-white rounded-lg border border-gray-200 p-4 sm:p-5 hover:shadow-md hover:border-gray-300 transition-all duration-200'>
       {/* Main content layout */}
-      <div className='flex items-start justify-between gap-4'>
+      <div className='flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 sm:gap-4'>
         {/* Left side - Question content */}
         <div className='flex-1 min-w-0'>
           {/* Question text with number inline */}
           <div className='prose max-w-none mb-3'>
-            <p className='text-gray-800 leading-relaxed text-base font-medium'>
-              <span className='inline-flex items-center px-3 py-1.5 rounded-full text-sm font-bold bg-blue-500 text-white mr-3'>
+            <p className='text-gray-800 leading-relaxed text-sm sm:text-base font-medium'>
+              <span className='inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-bold bg-blue-500 text-white mr-2 sm:mr-3'>
                 {displayIndex !== undefined
                   ? displayIndex
                   : question.question_no}
@@ -67,7 +67,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
 
           {/* Unit info */}
           {question.unit && (
-            <div className='flex items-center gap-2 text-xs'>
+            <div className='flex items-center gap-2 text-xs flex-wrap'>
               <span className='px-2 py-1 bg-blue-100 text-blue-700 rounded-full font-medium'>
                 Unit {question.unit}
               </span>
@@ -81,9 +81,9 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
         </div>
 
         {/* Right side - Marks and Year */}
-        <div className='flex items-center gap-3 flex-shrink-0'>
+        <div className='flex items-center justify-start sm:justify-end gap-2 sm:gap-3 flex-shrink-0'>
           <span
-            className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold ${getMarksColor(
+            className={`inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs font-bold ${getMarksColor(
               question.marks
             )}`}
           >
@@ -96,7 +96,7 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
             </svg>
             {question.marks || 'N/A'}
           </span>
-          <span className='inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold bg-orange-500 text-white'>
+          <span className='inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs font-bold bg-orange-500 text-white'>
             <svg
               className='w-3 h-3 mr-1'
               fill='currentColor'

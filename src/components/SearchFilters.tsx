@@ -25,11 +25,11 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({
   onReset,
 }) => {
   return (
-    <div className='bg-white border-b border-gray-200 p-4'>
+    <div className='bg-white border-b border-gray-200 p-3 sm:p-4'>
       <div className='max-w-7xl mx-auto'>
-        <div className='flex flex-col lg:flex-row gap-3 items-center'>
-          {/* Search Input - Reduced size */}
-          <div className='relative flex-1 max-w-md'>
+        <div className='flex flex-col sm:flex-row gap-3 items-stretch sm:items-center'>
+          {/* Search Input */}
+          <div className='relative flex-1 max-w-full sm:max-w-md'>
             <div className='absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none'>
               <MagnifyingGlassIcon className='h-4 w-4 text-gray-400' />
             </div>
@@ -42,44 +42,47 @@ const SearchFilters: React.FC<SearchFiltersProps> = ({
             />
           </div>
 
-          {/* Year Filter - Reduced size */}
-          <div className='flex-shrink-0'>
-            <select
-              value={selectedYear}
-              onChange={(e) => onYearChange(e.target.value)}
-              className='block w-32 px-3 py-2 text-sm border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
-            >
-              <option value=''>🗓️ All Years</option>
-              {availableYears.map((year) => (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              ))}
-            </select>
-          </div>
+          {/* Mobile: Filters Row */}
+          <div className='flex gap-2 sm:gap-3 flex-1 sm:flex-none'>
+            {/* Year Filter */}
+            <div className='flex-1 sm:flex-shrink-0'>
+              <select
+                value={selectedYear}
+                onChange={(e) => onYearChange(e.target.value)}
+                className='block w-full sm:w-32 px-2 sm:px-3 py-2 text-sm border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+              >
+                <option value=''>🗓️ All Years</option>
+                {availableYears.map((year) => (
+                  <option key={year} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </select>
+            </div>
 
-          {/* Marks Range Filter - Reduced size */}
-          <div className='flex-shrink-0'>
-            <select
-              value={marksRange}
-              onChange={(e) => onMarksRangeChange(e.target.value)}
-              className='block w-36 px-3 py-2 text-sm border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
-            >
-              <option value=''>📊 All Marks</option>
-              <option value='low'>2-4 marks</option>
-              <option value='medium'>5-8 marks</option>
-              <option value='high'>9+ marks</option>
-            </select>
-          </div>
+            {/* Marks Range Filter */}
+            <div className='flex-1 sm:flex-shrink-0'>
+              <select
+                value={marksRange}
+                onChange={(e) => onMarksRangeChange(e.target.value)}
+                className='block w-full sm:w-36 px-2 sm:px-3 py-2 text-sm border border-gray-300 rounded-md bg-white text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+              >
+                <option value=''>📊 All Marks</option>
+                <option value='low'>2-4 marks</option>
+                <option value='medium'>5-8 marks</option>
+                <option value='high'>9+ marks</option>
+              </select>
+            </div>
 
-          {/* Reset Button - Reduced size */}
-          <button
-            onClick={onReset}
-            className='flex-shrink-0 inline-flex items-center px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200'
-          >
-            <XMarkIcon className='h-4 w-4 mr-1' />
-            Reset
-          </button>
+            {/* Reset Button */}
+            <button
+              onClick={onReset}
+              className='flex-shrink-0 inline-flex items-center px-3 sm:px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200'
+            >
+              <XMarkIcon className='h-4 w-4 sm:mr-1' />
+              <span className='hidden sm:inline'>Reset</span>
+            </button>
+          </div>
         </div>
 
         {/* Active Filters Display */}

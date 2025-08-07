@@ -169,7 +169,7 @@ export default function Home() {
         onViewAll={handleViewAll}
       />
 
-      <div className='flex h-screen'>
+      <div className='flex min-h-screen lg:h-screen'>
         {/* Desktop Sidebar */}
         <div className='hidden lg:block'>
           <Sidebar
@@ -185,7 +185,7 @@ export default function Home() {
         </div>
 
         {/* Main content */}
-        <div className='flex-1 flex flex-col min-w-0'>
+        <div className='flex-1 flex flex-col min-w-0 pt-16 lg:pt-0'>
           {/* Search and Filters */}
           <SearchFilters
             searchTerm={filters.searchTerm}
